@@ -1,0 +1,748 @@
+#manual #main {
+    padding-right: 5em
+}
+
+#manual #main section {
+    margin-top: 2em
+}
+
+#manual #main section:first-child {
+    margin: 0
+}
+
+#manual #main p {
+    margin-bottom: .5em
+}
+
+#manual #main pre {
+    white-space: normal;
+    font-family: "Overpass Mono", monospace;
+    font-size: 12px;
+    color: var(--gray-700);
+    padding: 1.5em;
+    margin: 1.5em 0
+}
+
+#manual #main img {
+    margin: 3em 0
+}
+
+#manual #main img.inside {
+    margin: unset;
+    display: inline-block 
+    
+}
+
+#manual #main h3 {
+    color: var(--blue); 
+    margin: 1em 0 .5em;
+}
+
+#stick-content .button-easypay a {
+    padding: .2em 2em;
+}
+
+#stick-content .button-easypay:hover a {
+    color: #fff
+}
+
+#stick-content .button-easypay span {
+    font-size: 12px
+}
+
+.alerta ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1.5em 0
+}
+
+.alerta ul li {
+    list-style: none ;
+    padding: .5em 0
+}
+
+/* INSTITUCIONAL */
+
+#easy-missao {
+    background: url(/wp-content/uploads/icon-telescope.svg) no-repeat center 5em var(--blue-900);
+    padding: 9em 0 5em
+}
+
+#easy-missao *,
+#easypay-video * {
+    color: white
+}
+
+#easy-missao p {
+    font-size: 22px;
+    line-height: 140%;
+    opacity: .85;
+    max-width: 900px;
+    margin: 0 auto 
+}
+
+#easypay-video {
+    background: var(--blue-900);
+    padding: 5em 0
+}
+
+#easypay-numeros section .elementor-widget-wrap {
+    gap: 3em;
+    flex-wrap: nowrap;
+    justify-content: space-between 
+}
+
+#easypay-numeros .elementor-counter {
+    aspect-ratio: 1;
+    align-content: center;
+    background: var(--gray-200);
+    border-radius: 100%;
+    box-shadow: 0px 7px 112px 0px rgba(0, 0, 0, 0.05);
+}
+
+#easypay-numeros span {
+    color: var(--blue) 
+}
+
+#easypay-numeros .elementor-counter-title {
+    color: var(--gray-800) 
+}
+
+#easypay-numeros .elementor-counter-title {
+    align-items: start 
+}
+
+#easypay-numeros .elementor-counter-number-wrapper {
+    align-items: end;
+    padding-top: .7em
+}
+
+#easypay-numeros section .elementor-element {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#card-topics.certificados {
+    padding: 5em 0
+}
+
+#card-topics.certificados .card {
+    padding: 1em;
+    border: 2px solid var(--gray-400);
+    border-radius: 1em;
+}
+
+#card-topics.certificados .card img {
+    padding-bottom: 2em;
+    border-bottom: 1px solid var(--gray-400);
+    width: auto;
+    height: auto;
+    max-height: 100px;
+}
+
+#card-topics.certificados .card p {
+    padding: 4em 1em;
+    text-align: center;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0
+}
+
+#brands-img .pa-gallery-img-container {
+    mix-blend-mode: multiply;
+}
+
+#brands-img .premium-img-gallery-filter {
+    margin: 2em 0
+}
+
+#xs_tab_2 ul li a {
+    border: 2px solid var(--gray-200) 
+}
+
+#xs_tab_2 ul li a.active span {
+    color: #fff
+}
+
+#xs_tab_2 ul li a:hover {
+    border-color: var(--blue) 
+}
+
+/* ADS PAGE */
+
+#header-cresca:before {
+    content: '';
+    width: 100%;
+    height: 80%;
+    z-index: -5;
+    position: absolute ;
+    top: 0;
+    display: block;
+    background: var(--blue) 
+}
+
+#modal-proposta {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    border-top: 3px solid var(--blue);
+    bottom: 0;
+    z-index: 10;
+    padding: .5em 0
+}
+
+#modal-proposta button {
+    border-radius: 3em;
+    padding: .8em 3em .8em
+}
+
+#modal-proposta button span {
+    color: #fff;
+    font-weight: 400 
+}
+
+body.page-id-27700 #header-cresca h1 {
+    font-size: 46px;
+    line-height: 110%;
+}
+
+body.page-id-27700 #meios-pagamento {
+    padding: 2em 0 6em
+}
+
+body.page-id-27700 #meios-pagamento .premium-modal-box-modal .elementor-column {
+    width: 50%;
+    margin-bottom: 1em
+}
+
+body.page-id-27700 #meios-pagamento button,
+body.page-id-27700 #card-topics button,
+body.page-id-27700 #vantagens-cresca button {
+    background: transparent;
+    border: 2px solid var(--blue);
+    border-radius: 3em;
+    padding: .7em 2em .6em
+}
+
+body.page-id-27700 #meios-pagamento button span,
+body.page-id-27700 #card-topics button span,
+body.page-id-27700 #vantagens-cresca button span {
+    font-weight: 400;
+    color: var(--blue) 
+}
+
+body.page-id-27700 #meios-pagamento button:hover,
+body.page-id-27700 #card-topics button:hover,
+body.page-id-27700 #vantagens-cresca button:hover {
+    background: var(--blue) 
+}
+
+body.page-id-27700 #meios-pagamento button:hover span,
+body.page-id-27700 #card-topics button:hover span,
+body.page-id-27700 #vantagens-cresca button:hover span {
+    color: #fff
+}
+
+body.page-id-27700 #bluebar button {
+    border: 2px solid #fff;
+    border-radius: 3em
+}
+
+body.page-id-27700 #bluebar button span {
+    color: #fff;
+    font-weight: 400 
+}
+
+body.page-id-27700 .premium-modal-box-modal form button span {
+    color: #fff !important;
+}
+
+#box-proposta {
+    border: 1px solid var(--gray-200);
+    background: #fff;
+    border-radius: 8px
+}
+
+#box-proposta .elementor-form-fields-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1em;
+    margin: 0;
+}
+
+#box-proposta .elementor-field-group {
+    padding: 0;
+    margin: 0;
+    width: 100%
+}
+
+#box-proposta label {
+    line-height: auto;
+    font-weight: 400;
+    margin-bottom: .2em
+}
+
+#box-proposta .elementor-field-group {
+    align-items: flex-start 
+}
+
+#box-proposta .elementor-button span {
+    color: #fff;
+    font-weight: 400 
+}
+
+.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-type-checkbox .elementor-field-subgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+    margin-top: .5em;
+}
+
+.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-type-checkbox .elementor-field-subgroup span {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5em;
+}
+
+.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-type-checkbox .elementor-field-subgroup input {
+    display: block !important;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    min-width: 20px;
+}
+
+.elementor-form-fields-wrapper.elementor-labels-above .elementor-field-type-checkbox .elementor-field-subgroup label {
+    line-height: 120%;
+    position: relative;
+    top: .3em
+}
+
+/* LANDING PAGE 2024 */
+#lp-24 {
+    background: var(--blue);
+    padding-bottom: 3em;
+}
+
+#lp-24.main {
+    background: url(https://www.easypay.pt/wp-content/uploads/lp-hero-ecommerce.png) no-repeat bottom right var(--blue);
+    background-size: 710px auto;
+}
+
+#lp-24.main #center-content {
+    padding: 3em 0
+}
+
+#lp-24 #fake-header {
+    padding: 1em 0 2em;
+}
+
+#lp-24 #fake-header a img {
+    width: 120px
+}
+
+#lp-24 .ekit-heading {
+    width: 70%;
+}
+
+#lp-24 h1 {
+    font-size: 39px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+}
+
+#lp-24 p {
+    font-size: 18px;
+    color: #B9DEFF;
+}
+
+#lp-api,
+#lp-reasons,
+#lp-products,
+#lp-platform,
+#lp-payments,
+#lp-affiliate,
+#lp-form,
+#lp-numbers {
+    padding: 5em 0;
+}
+
+#lp-api h2,
+#lp-reasons h2,
+#lp-products h2,
+#lp-platform h2,
+#lp-payments h2,
+#lp-affiliate h2,
+#lp-numbers h2 {
+    font-size: 28px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: var(--blue);
+    margin: 0
+}
+
+#lp-24 a.elementor-button {
+    background: #fff;
+}
+
+#lp-24 a.elementor-button:hover {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+#lp-24 a.elementor-button:hover span {
+    color: var(--blue);
+}
+
+#lp-api ul,
+#lp-payments ul {
+    justify-content: center;
+    gap: 1em;
+    padding: 2em 0;
+    flex-wrap: nowrap;
+}
+
+#lp-api ul li,
+#lp-payments ul li {
+    padding: 0.5em 2em;
+    border: 2px solid var(--gray-300);
+    border-radius: 0.5em;
+    background: var(--gray-200);
+    justify-content: center;
+    margin: 0
+}
+
+#lp-api ul li span,
+#lp-platform .elementor-tab-content {
+    font-family: "Overpass Mono", monospace;
+}
+
+#lp-reasons .elementor-tabs {
+    padding-top: 3em
+}
+
+#lp-reasons .elementor-tabs-wrapper {
+    width: 40%;
+}
+
+#lp-reasons .elementor-tabs-content-wrapper {
+    width: 50%; background: var(--gray-200);
+    border-radius: 12px;
+    padding: 1.5em
+}
+
+#lp-reasons .elementor-tabs-content-wrapper img {
+    max-width: 250px;
+}
+
+#lp-reasons .elementor-tabs-content-wrapper ul {
+    padding: 1em 2em
+}
+
+#lp-reasons .elementor-tabs-content-wrapper a {
+    padding: .5em 2em;
+    border: 2px solid var(--blue);
+    border-radius: 4em;
+    background: #fff;
+    color: var(--blue);
+    margin-top: 1em;
+    display: table 
+}
+
+#lp-reasons .elementor-tabs-content-wrapper a:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+#lp-reasons .elementor-tabs-content-wrapper,
+#lp-reasons .elementor-tab-title {
+    border-color: transparent;
+    border: none;
+}
+
+#lp-reasons .elementor-tab-title {
+    padding: .5em 1em;
+    margin: .5em 0;
+    color: var(--gray-500);
+    font-weight: normal;
+    border-left: 2px solid var(--gray-200);
+}
+
+#lp-reasons .elementor-tab-title:hover {
+    border-color: var(--gray-500) 
+}
+
+#lp-reasons .elementor-tab-title.elementor-active {
+    border-color: var(--blue);
+    font-weight: 600;
+    color: var(--blue) 
+}
+
+#lp-reasons .elementor-tab-title.elementor-active:before,
+#lp-reasons .elementor-tab-title.elementor-active:after {
+    display: none 
+}
+
+#lp-numbers {
+    background: var(--gray-800) 
+}
+
+#lp-numbers h2,
+#lp-numbers p {
+    text-align: center;
+    color: #fff;
+}
+
+#lp-numbers ul {
+    justify-content: center;
+    margin-top: 2em
+}
+
+#lp-numbers li {
+    width: 25%;
+    aspect-ratio: 1;
+    background: var(--gray-700);
+    border-radius: 10em;
+    justify-content: center;
+    text-align: center;
+}
+
+#lp-numbers li span::first-line {
+    color: #FD7EE0;
+    font-size: 42px;
+}
+
+#lp-numbers li span {
+    color: #fff;
+    font-size: 18px; 
+}
+
+#lp-products {
+    background: url(https://www.easypay.pt/wp-content/uploads/dot-bg.png) var(--gray-200);
+    background-size: 13px;
+}
+
+#lp-products .elementor-container {
+    background: var(--gray-200);
+    padding: 2em;
+}
+
+#lp-products .col {
+    background: #fff;
+    border: 1px solid var(--gray-600);
+    border-radius: 1em;
+    padding: 1em
+}
+
+#lp-products .row-1 .col .elementor-widget-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+#lp-products .row-2 .col .elementor-widget-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: nowrap;
+}
+
+#lp-products .col .elementor-element {
+    margin: 0;
+    padding: 0.5em 1em;
+    border: 1.5px solid var(--gray-400);
+    border-radius: 0.5em;
+}
+
+#lp-products .col .elementor-widget-container {
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#lp-platform {
+    background: var(--gray-800);
+}
+
+#lp-platform *,
+#lp-platform h2,
+#lp-form h2,
+#lp-form p {
+    color: #fff;
+}
+
+#lp-platform h2,
+#lp-form h2 {
+    margin: 0;
+}
+
+#lp-platform .ekit-wid-con {
+    margin-bottom: 3em;
+}
+
+#lp-platform .ekit-wid-con p,
+#lp-payments .ekit-wid-con p {
+    text-align: center;
+}
+
+#lp-platform .col .elementor-widget-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lp-platform .elementor-tabs {
+    background: var(--gray-700);
+    border-radius: 12px;
+    overflow: hidden 
+}
+
+#lp-platform .elementor-tabs-content-wrapper,
+#lp-platform .elementor-tab-content,
+#lp-platform .elementor-tab-desktop-title.elementor-active {
+    border: none;
+}
+
+#lp-platform .elementor-tab-desktop-title.elementor-active {
+    border-bottom: 3px solid var(--blue);
+}
+
+#lp-platform .elementor-tabs-wrapper {
+    border-bottom: 1px solid var(--gray-600);
+}
+
+#lp-platform .elementor-tab-desktop-title.elementor-active:before,
+#lp-platform .elementor-tab-desktop-title.elementor-active:after {
+    display: none;
+}
+
+#lp-platform pre {
+    background: var(--gray-900);
+    padding: 2em
+}
+
+#lp-platform pre .string {
+    color: #59F90D
+}
+
+#lp-platform pre .punctuation {
+    color: #c4ebb1 
+}
+
+#lp-affiliate {
+    background: var(--gray-200);
+}
+
+#lp-affiliate .illustration-hand {
+    padding: 3em;
+    border: 1px solid var(--gray-400);
+    background: #fff;
+    max-width: 370px;
+    border-radius: 1em;
+    aspect-ratio: 1;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#lp-affiliate h2 {
+    text-align: initial;
+    margin: 0
+}
+
+#lp-payments ul li svg {
+    width: 40px;
+    height: 40px;
+}
+
+#lp-payments ul li span {
+    font-size: 24px;
+    color: var(--blue);
+}
+
+#lp-form {
+    background: var(--blue);
+    margin-bottom: 5em
+}
+
+#lp-form p {
+    padding-right: 5em
+}
+
+#lp-form form,
+#lp-form .hbspt-form {
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 12px;
+}
+
+#lp-form form label {
+    color: var(--gray-800);
+    font-size: 12px;
+    margin: 0;
+}
+
+#lp-form form .elementor-form-fields-wrapper {
+    gap: 1em
+}
+
+#lp-form form .elementor-field-group {
+    margin: 0;
+    padding: 0;
+}
+
+#lp-form form .elementor-column.elementor-col-50 {
+    width: 48%;
+}
+
+#lp-form form .elementor-field-option {
+    height: 20px
+}
+
+#lp-form form button {
+    margin-bottom: 1em 
+}
+
+#lp-form-mini h2,
+h1 {
+    margin: 0;
+}
+
+#lp-form-mini .elementor-container {
+    border-radius: 12px;
+    background: var(--gray-200);
+    padding: 2em
+}
+
+#lp-footer {
+    margin-top: 5em
+}
+
+#lp-footer img {
+    width: 90px;
+    float: left 
+}
+
+#lp-footer .copyright {
+    border-top: 1px solid var(--gray-200);
+    padding: 1em 0
+}
+
+#lp-footer .copyright p {
+    text-align: center;
+    font-size: 12px
+}
+
+#lp-footer a.elementor-icon {
+    background: none;
+}
+
+#lp-footer a.elementor-icon i {
+    color: gray 
+}
+
+.hide {
+    display: none;
+}

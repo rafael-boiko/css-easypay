@@ -1,0 +1,733 @@
+/* FAQ SECTION */
+#xs_accor_simple .ekit-heading h2 {
+    margin: 0
+}
+
+#xs_accor_simple .elementor-toggle p,
+#xs_accor_simple .ekit-heading p {
+    color: var(--gray-700);
+    font-size: 16px
+}
+
+#xs_accor_simple .elementskit-card {
+    box-shadow: none;
+    overflow: hidden
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title,
+#xs_accor_simple .elementskit-card {
+    border-bottom: 1px solid var(--gray-300)
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title:hover,
+#xs_accor_simple .elementskit-card:hover a {
+    background-color: var(--gray-200)
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title:hover a {
+    color: var(--blue) 
+}
+
+#xs_accor_simple .elementor-toggle .elementor-toggle-item:first-child .elementor-tab-title,
+#xs_accor_simple .elementskit-card:first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#xs_accor_simple .elementor-toggle .elementor-toggle-item:last-of-type .elementor-tab-title,
+#xs_accor_simple .elementskit-card:last-child {
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: none
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title.elementor-active {
+    border-color: transparent 
+}
+
+#xs_accor_simple .ekit-accordion-title,
+#xs_accor_simple .elementskit-btn-link .icon-open {
+    color: var(--gray-700);
+    font-weight: 400
+}
+
+#xs_accor_simple .ekit-accordion--content p {
+    color: #000
+}
+
+#xs_accor_simple .ekit-accordion--content ol,
+#xs_accor_simple .ekit-accordion--content ul {
+    color: #5c5c5c;
+    padding: 0 2em
+}
+
+#xs_accor_simple .ekit-accordion--content ol li::marker {
+    color: var(--blue) 
+}
+
+#xs_accor_simple {
+    background: var(--gray-100);
+    padding-top: 3em
+}
+
+#xs_accor_simple .elementor-toggle .elementor-tab-title {
+    padding: 1em 1.5em;
+    background: #fff;
+}
+
+#xs_accor_simple .elementor-tab-content {
+    background: #fff;
+    padding: 2em;
+    border-bottom: 1px solid var(--gray-300);
+}
+
+#xs_accor_simple a {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-900);
+    order: 1;
+    transition: none;
+    border: none 
+}
+
+#xs_accor_simple a:hover span,
+#xs_accor_simple .active a span {
+    color: var(--blue) 
+}
+
+#xs_accor_simple p a {
+    color: var(--blue);
+    text-decoration: underline 
+}
+
+#xs_accor_simple .elementor-toggle-icon {
+    order: 2
+}
+
+#xs_accor_simple .elementor-tab-title.elementor-active a {
+    color: var(--blue) 
+}
+
+#xs_accor_simple #stick-box .elementor-icon-list--layout-traditional {
+    display: none 
+}
+
+#xs_accor_simple #stick-box ul {
+    gap: .1em
+}
+
+#xs_accor_simple #stick-box ul li {
+    padding: 0 !important;
+    margin: 0;
+    border-radius: 5px;
+    background-position: .3em;
+    background-color: var(--gray-300) 
+}
+
+#xs_accor_simple #stick-box ul li a {
+    width: 100%;
+    padding: .5em 1.5em;
+}
+
+#xs_accor_simple #stick-box ul li:hover {
+    background-color: white;
+}
+
+#xs_accor_simple #stick-box ul li:hover a {
+    color: var(--blue) 
+}
+
+#xs_accor_simple #stick-box ul li a:after {
+    display: none 
+}
+
+#xs_accor_simple #stick-box ul li:last-child {
+    background: url(/wp-content/uploads/bo-arrow.svg) no-repeat .3em center var(--blue);
+}
+
+#xs_accor_simple #stick-box ul li:last-child a {
+    color: white 
+}
+
+/* BRAND CENTER */
+#rows section {
+    margin-bottom: 2em
+}
+
+#rows section .elementor-container {
+    display: flex;
+    gap: 2em
+}
+
+#rows section .elementor-container .elementor-widget-wrap {
+    overflow: hidden 
+}
+
+
+/* CAMPANHAS */
+.cp-checkout h1 {
+    font-size: 43px !important;
+    line-height: 100% !important
+}
+
+.cp-checkout h1 span {
+    font-size: 16px;
+    display: table;
+    background: #fff;
+    line-height: normal;
+    padding: .5em 1em .4em;
+    margin-bottom: 1.5em;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--red)
+}
+
+.cp-checkout h1 em {
+    font-size: 60px
+}
+
+.cp-checkout .button-easypay a {
+    border-radius: 4em;
+    padding: .5em 2em;
+}
+
+.cp-checkout .button-easypay a span {
+    color: var(--blue) !important 
+}
+
+.cp-checkout.pg-precos h1 {
+    font-size: 25px !important
+}
+
+.cp-checkout.pg-precos h1 span {
+    font-size: 10px;
+    margin-bottom: 1em
+}
+
+.cp-checkout.pg-precos h1 em {
+    font-size: 31px
+}
+
+.cp-checkout.pg-precos .elementor-element {
+    margin-bottom: 0
+}
+
+.cp-checkout.pg-precos .elementor-widget-wrap {
+    display: flex;
+    gap: .5em;
+    padding: .5em !important
+}
+
+.cp-checkout.pg-precos img {
+    width: 150px;
+    max-width: unset !important
+}
+
+.cp-checkout.pg-precos .button-easypay a {
+    padding: .4em 2em .2em
+}
+
+.cp-checkout.pg-precos .button-easypay a span {
+    font-size: 16px;
+    font-weight: 500 
+}
+
+.button-easypay .premium-modal-trigger-btn {
+    border-radius: 2em !important;
+    padding: .6em 1.5em !important
+}
+
+#campanha_checkout input[type="checkbox"] {
+    margin: 0;
+    margin-right: .2em
+}
+
+#campanha_checkout form label span {
+    color: var(--gray-600) 
+}
+
+#campanha_checkout form .elementor-field-group-plataformas,
+#campanha_checkout form .elementor-field-group-meios {
+    border-bottom: 1px solid var(--gray-300);
+    padding-bottom: 1em
+}
+
+#campanha_checkout form .elementor-field-group-plataformas label,
+#campanha_checkout form .elementor-field-group-meios label {
+    margin-bottom: 1em
+}
+
+#campanha_checkout form .elementor-field-group-plataformas label.elementor-field-label:after,
+#campanha_checkout form .elementor-field-group-meios label.elementor-field-label:after {
+    content: '*';
+    color: var(--pink) 
+}
+
+#campanha_checkout form .elementor-field-group-agreed,
+#campanha_checkout form .elementor-field-group-acceptance {
+    margin-bottom: 0;
+}
+
+.cp-checkout.version-b h1 {
+    font-size: 35px !important
+}
+
+.cp-checkout.version-b h1 em {
+    font-size: 55px
+}
+
+.cp-checkout.version-b h1 span {
+    font-size: 12px
+}
+
+.cp-checkout.version-b .elementor-widget-heading {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: .8em;
+    margin-bottom: .8em;
+}
+
+.cp-checkout.version-b p {
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.cp-checkout.version-b .elementor-widget-elementskit-simple-tab {
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab li {
+    margin: 0;
+    list-style: none 
+}
+
+#adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab ul.nav-tabs {
+    display: flex !important;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-200) 
+}
+
+#adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab ul.nav-tabs:before {
+    content: 'A easypay oferece integraÃ§Ã£o fÃ¡cil via API ou Plugins e Add-ons';
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--blue);
+    line-height: 120%;
+    margin-bottom: .5em
+}
+
+#adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab ul.nav-tabs a {
+    font-size: 14px;
+    text-wrap: wrap;
+    text-align: left;
+    height: 100%; 
+}
+
+.cp-checkout.version-b .elementor-widget-elementskit-simple-tab .tab-content ul {
+    display: flex;
+    padding: 10px 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: .5em 2em;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.cp-checkout.version-b .elementor-widget-elementskit-simple-tab .tab-content ul img {
+    max-height: 25px;
+    width: unset;
+}
+
+#aderir {
+    background: var(--blue-900) 
+}
+
+#aderir h2,
+#aderir s,
+#aderir label {
+    color: #fff !important;
+    line-height: 120%;
+}
+
+#aderir .elementor-col-50 .elementor-element {
+    margin: 0;
+}
+
+/* BLACK FRIDAY */
+.page-black-friday-easypay #site-header header,
+.page-black-friday-easypay #site-header .elementskit-menu-container,
+
+.page-promotional-campaign-easypay-checkout #site-header header,
+.page-promotional-campaign-easypay-checkout #site-header .elementskit-menu-container,
+
+body.elementor-page-34299 #site-header header,
+body.elementor-page-34299 #site-header .elementskit-menu-container,
+
+.page-black-friday-easypay-ad #site-header header,
+.page-black-friday-easypay-ad #site-header .elementskit-menu-container {
+    background: #474f52
+}
+
+.page-black-friday-easypay #site-header #menu-idiomas li a,
+.page-promotional-campaign-easypay-checkout #site-header #menu-idiomas li a,
+body.elementor-page-34299 #site-header #menu-idiomas li a,
+.page-black-friday-easypay-ad #site-header #menu-idiomas li a {
+    color: #fff
+}
+
+.page-black-friday-easypay footer,
+.page-promotional-campaign-easypay-checkout footer,
+body.elementor-page-34299 footer,
+.page-black-friday-easypay-ad footer {
+    display: none 
+}
+
+.page-black-friday-easypay #site-header .elementskit-megamenu-panel .elementor-top-section.elementor-element,
+.page-black-friday-easypay #site-header .elementskit-megamenu-panel section.elementor-section,
+.page-promotional-campaign-easypay-checkout #site-header .elementskit-megamenu-panel .elementor-top-section.elementor-element,
+.page-promotional-campaign-easypay-checkout #site-header .elementskit-megamenu-panel section.elementor-section,
+body.elementor-page-34299 #site-header .elementskit-megamenu-panel .elementor-top-section.elementor-element,
+body.elementor-page-34299 #site-header .elementskit-megamenu-panel section.elementor-section,
+.page-black-friday-easypay-ad #site-header .elementskit-megamenu-panel .elementor-top-section.elementor-element,
+.page-black-friday-easypay-ad #site-header .elementskit-megamenu-panel section.elementor-section {
+    background: #474f52 !important
+}
+
+.page-black-friday-easypay #site-header #login-top a,
+.page-promotional-campaign-easypay-checkout #site-header #login-top a,
+body.elementor-page-34299 #site-header #login-top a,
+.page-black-friday-easypay-ad #site-header #login-top a {
+    border-radius: 22px
+}
+
+.page-black-friday-easypay #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+.page-black-friday-easypay #site-header header .elementskit-megamenu-panel span,
+.page-black-friday-easypay #toggle-menu ul li a,
+
+.page-promotional-campaign-easypay-checkout #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+.page-promotional-campaign-easypay-checkout #site-header header .elementskit-megamenu-panel span,
+.page-promotional-campaign-easypay-checkout #toggle-menu ul li a,
+
+body.elementor-page-34299 #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+body.elementor-page-34299 #site-header header .elementskit-megamenu-panel span,
+body.elementor-page-34299 #toggle-menu ul li a,
+
+.page-black-friday-easypay-ad #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+.page-black-friday-easypay-ad #site-header header .elementskit-megamenu-panel span,
+.page-black-friday-easypay-ad #toggle-menu ul li a{
+    color: #fff;
+}
+
+.page-black-friday-easypay header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a,
+.page-black-friday-easypay #menu-idiomas li a.ekit-menu-dropdown-toggle,
+
+.page-promotional-campaign-easypay-checkout header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a,
+.page-promotional-campaign-easypay-checkout #menu-idiomas li a.ekit-menu-dropdown-toggle,
+
+body.elementor-page-34299 header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a,
+body.elementor-page-34299 #menu-idiomas li a.ekit-menu-dropdown-toggle,
+
+.page-black-friday-easypay-ad header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a,
+.page-black-friday-easypay-ad #menu-idiomas li a.ekit-menu-dropdown-toggle,
+
+body.post-in-category-blog header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a,
+body.post-in-category-blog #menu-idiomas li a.ekit-menu-dropdown-toggle {
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-light-gray-down.svg) no-repeat right; 
+}
+
+.page-black-friday-easypay #toggle-menu .elementor-tab-title,
+.page-promotional-campaign-easypay-checkout #toggle-menu .elementor-tab-title,
+body.elementor-page-34299 #toggle-menu .elementor-tab-title,
+.page-black-friday-easypay-ad #toggle-menu .elementor-tab-title {
+    background: var(--gray-800) 
+}
+
+.page-black-friday-easypay #toggle-menu .elementor-tab-title a,
+.page-promotional-campaign-easypay-checkout #toggle-menu .elementor-tab-title a,
+body.elementor-page-34299 #toggle-menu .elementor-tab-title a,
+.page-black-friday-easypay-ad #toggle-menu .elementor-tab-title a {
+    color: var(--gray-100) 
+}
+
+.page-black-friday-easypay #site-header h2,
+.page-promotional-campaign-easypay-checkout #site-header h2,
+body.elementor-page-34299 #site-header h2,
+.page-black-friday-easypay-ad #site-header h2 {
+    color: #9dc6ff
+}
+
+.page-black-friday-easypay #site-header #logo img,
+.page-promotional-campaign-easypay-checkout #site-header #logo img,
+body.elementor-page-34299 #site-header #logo img,
+.page-black-friday-easypay-ad #site-header #logo img {
+    visibility: hidden; 
+}
+
+.page-black-friday-easypay #site-header #logo,
+.page-promotional-campaign-easypay-checkout #site-header #logo,
+body.elementor-page-34299 #site-header #logo,
+.page-black-friday-easypay-ad #site-header #logo {
+    background: url(https://www.easypay.pt/wp-content/uploads/logo-easypay-white-1.svg) no-repeat; 
+    background-size: 130px
+}
+
+.page-black-friday-easypay #bluebar,
+.page-promotional-campaign-easypay-checkout #bluebar,
+body.elementor-page-34299 #bluebar,
+.page-black-friday-easypay-ad #bluebar{
+    background: #474f52
+}
+
+#lp-products.bf {
+    background: #343538
+}
+
+#lp-products.bf .elementor-container {
+    padding: 0;
+    background: #343538
+}
+
+#lp-products.bf h2 {
+    color: var(--pink) 
+}
+
+#lp-products.bf .row-1 .col .elementor-widget-wrap {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 
+}
+
+#lp-products.bf .elementor-widget-wrap {
+    flex-wrap: wrap;
+    gap: 1em
+}
+
+#lp-products.bf .col {
+    background: #4C5466
+}
+
+#lp-products.bf .col .elementor-element {
+    background: #fff;
+}
+
+#lp-reasons.bf {
+    background: #292D2E 
+}
+
+#cp-blackfriday p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    max-width: 600px;
+    line-height: 120%;
+    margin: 0 auto 
+}
+
+#cp-blackfriday .small-copy p {
+    font-size: 12px;
+    opacity: .8
+}
+
+#cp-blackfriday h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 32px
+}
+
+#cp-blackfriday a {
+    color: var(--pink);
+    transition: none;
+    border: 2px solid var(--pink);
+    border-radius: 2em;
+    padding: .2em 2em .1em
+}
+
+#cp-blackfriday a:hover {
+    background: var(--pink) !important;
+    color: #fff 
+}
+
+#cp-blackfriday li:last-child a {
+    border-color: var(--gray-500);
+    color: var(--gray-500);
+    background: url(/wp-content/uploads/arrow-light-gray-down.svg) no-repeat 1em center;
+    padding-left: 3em
+}
+
+#cp-blackfriday li:last-child a:hover {
+    background: url(/wp-content/uploads/arrows-down.svg) no-repeat 1em center var(--gray-500) !important;
+    color: #fff 
+}
+
+/* ANO NOVO */
+.page-homepage-ano-novo-25 #homepage-avisos {
+    background: #141763
+}
+
+.page-homepage-ano-novo-25 #homepage-avisos strong {
+    color: #d5d5d5
+}
+
+.page-homepage-ano-novo-25 #site-header #logo {
+    background: url(https://www.easypay.pt/wp-content/uploads/logo-easypay-white-1.svg) no-repeat; 
+    background-size: 130px
+}
+
+.page-homepage-ano-novo-25 #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+.page-homepage-ano-novo-25 #site-header #menu-idiomas li a {
+    color: #fff;
+}
+
+.page-homepage-ano-novo-25 #site-header header,
+.page-homepage-ano-novo-25 #site-header .elementskit-menu-container {
+    background: #090C51
+}
+
+.page-homepage-ano-novo-25 header #main-menu ul.elementskit-navbar-nav > li.elementskit-dropdown-has > a {
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-light-gray-down.svg) no-repeat right;
+}
+
+.page-homepage-ano-novo-25 #site-header .elementskit-megamenu-panel section.elementor-section,
+.page-homepage-ano-novo-25 #site-header .elementskit-megamenu-panel section.elementor-section {
+    background: #090C51 !important
+}
+
+.page-homepage-ano-novo-25 #toggle-menu .elementor-tab-title {
+    background-color: color(srgb 0.061 0.0742 0.53) 
+}
+
+.page-homepage-ano-novo-25 #site-header #logo img {
+    visibility: hidden;
+}
+
+#mega-head-25 {
+    padding: 3em 0
+}
+
+#mega-head-25 h1,
+#mega-head-25 p {
+    color: #fff;
+    text-align: center;
+}
+
+#mega-head-25 h1 {
+    font-weight: 100;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #FFFDF5;
+}
+
+#mega-head-25 p {
+    font-size: 16px;
+    color: #B9DEFF;
+    max-width: 590px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 150%;
+    margin-bottom: .5em
+}
+
+#mega-head-25 p strong {
+    font-size: 18px
+}
+
+#aderir .premium-modal-trigger-btn {
+    background: none;
+    margin-top: 1em;
+    border: 2px solid;
+}
+
+#lp-api.bf h2,
+#lp-reasons.bf h2,
+#lp-reasons.bf .elementor-tab-title.elementor-active {
+    color: var(--pink) 
+}
+
+#lp-reasons.bf .elementor-tab-title.elementor-active {
+    border-color: var(--pink) 
+}
+
+@media screen and (max-width: 668px) {
+    #campanha_checkout form .elementor-field-group-plataformas .elementor-field-subgroup,
+    #campanha_checkout form .elementor-field-group-meios .elementor-field-subgroup {
+        gap: 1em
+    }
+    
+    #campanha_checkout form .elementor-field-group-plataformas, 
+    #campanha_checkout form .elementor-field-group-meios {
+        padding-bottom: 1em !important
+    }
+    
+    .cp-checkout h1 {
+        font-size: 31px !important;
+        line-height: 100% !important
+    }
+    
+    .cp-checkout h1 span {
+        font-size: 12px
+    }
+    
+    .cp-checkout h1 em {
+        font-size: 42px;
+    }
+    
+    #home-hero .cp-checkout .button-easypay a {
+        position: absolute;
+        padding: .6em 2em .4em;
+        top: -.5em
+    }
+    
+    .cp-checkout.version-b h1 {
+        font-size: 30px !important
+    }
+
+    .cp-checkout.version-b h1 em {
+        font-size: 48px
+    }
+
+    .cp-checkout.version-b h1 span {
+        font-size: 10px
+    }
+    
+    .cp-checkout.version-b p {
+        font-size: 16px
+    }
+    
+    body.page-id-29647 .elementor-column {
+        padding: 0
+    }
+
+    body.page-id-29647 #adira-ja .elementor-container .elementor-column:last-child {
+        padding: 2em !important;
+    }
+
+    body.page-id-29647 #adira-ja .elementor-container .elementor-column:first-child .elementor-widget-wrap {
+        padding: 1em !important
+    }
+
+    #adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab ul.nav-tabs:before {
+        font-size: 18px
+    }
+    
+    #adira-ja .cp-checkout.version-b .elementor-widget-elementskit-simple-tab ul.nav-tabs a span {
+        font-size: 12px;
+        padding-bottom: .5em
+    }
+    
+    .cp-checkout.version-b .elementor-widget-elementskit-simple-tab .tab-content ul img {
+        max-height: 22px
+    }
+    
+    .cp-checkout.version-b .elementor-widget-elementskit-simple-tab .tab-content .tab-pane {
+        padding-bottom: 0
+    }
+
+}

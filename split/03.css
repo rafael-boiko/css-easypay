@@ -1,0 +1,673 @@
+.small-copy p {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: .5em
+}
+
+.small-copy .premium-modal-box-container {
+    display: inline-table;
+    width: unset !important
+}
+
+.small-copy button.premium-btn-lg {
+    position: static !important;
+}
+
+.small-copy button.premium-btn-lg span {
+    font-size: 11px !important;
+    color: var(--blue) 
+}
+
+.small-copy ul li {
+    text-align: left;
+    font-size: 16px;
+    line-height: 120%
+}
+
+.small-copy h3 {
+    color: var(--blue);
+    font-size: 22px;
+    padding: .5em !important
+}
+
+#xs_cta_style_14 p {
+    margin-bottom: .5em;
+}
+
+#xs_cta_style_14.promocional p:before {
+    content: '0,25 â‚¬ + 1,50 %';
+    margin-right: .5em;
+    text-decoration:line-through;
+}
+
+#xs_cta_style_14.promocional .elementor-widget-wrap,
+#xs_cta_style_14.promocional section.elementor-inner-section .elementor-container {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 1em;
+
+}
+
+#xs_cta_style_14.promocional section.elementor-inner-section .elementor-container {
+    gap: 0
+}
+
+#xs_cta_style_14.promocional .button-easypay a {
+    border: 2px solid #fff;
+    width: 100%;
+    padding: .9em 2em
+}
+
+#xs_cta_style_14.promocional .button-easypay a:hover {
+    background: #fff !important;
+}
+
+#xs_cta_style_14.promocional .button-easypay span {
+    color: #fff
+}
+
+#xs_cta_style_14.promocional .button-easypay a:hover span {
+    color: var(--blue) 
+}
+
+#contacto .premium-modal-box-container p {
+    color: var(--text-dark)
+}
+
+#xs_cta_style_14 .elementor-widget-wrap {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+#xs_cta_style_14 .elementor-widget:not(:last-child) {
+    margin: 0;
+}
+
+#xs_cta_style_14 a {
+    background: transparent;
+    color: #fff;
+    box-shadow: none
+}
+
+#xs_cta_style_14 a:hover {
+    background: #fff;
+    color: var(--blue);
+}
+
+#xs_cta_style_14 section.elementor-inner-section, 
+#xs_cta_style_14 section.elementor-inner-section .elementor-container, 
+#xs_cta_style_14 section.elementor-inner-section .elementor-container div {
+    background: none;
+    padding: 0;
+    width: unset;
+}
+
+#xs_cta_style_14 section.elementor-inner-section, 
+#xs_cta_style_14 section.elementor-inner-section .elementor-container {
+    width: 100%;
+    justify-content: space-between
+}
+
+/* FIM */
+
+#home-pagamentos .elementor-column:last-child .elementor-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+#home-pagamentos .elementor-column:last-child .elementor-container .elementor-column {
+    max-width: 48%;
+}
+
+#home-pagamentos p {
+    font-weight: 300;
+    color: var(--text-medium) 
+}
+
+#home-meios {
+    margin: 3em 0 5em; 
+}
+
+#home-meios * {
+    overflow: visible 
+}
+
+#home-meios ul {
+    border-bottom: 2px solid var(--gray-200);
+    padding: 0  0 3em;
+    display: flex;
+    margin: 0;
+    justify-content: space-between; 
+}
+
+#home-meios ul li {
+    margin: 0;
+}
+
+#home-meios svg {
+    width: auto;
+    height: 30px;
+    margin: unset;
+}
+
+#home-meios svg:hover {
+    opacity: .7;
+}
+
+#home-feature {
+    margin-bottom: 3em
+}
+
+#home-feature > .elementor-container {
+    background: var(--blue-900);
+    border-radius: 8px;
+    padding: 2em;
+}
+
+#home-feature h2 {
+    color: #fff;
+}
+
+#home-feature ul {
+    justify-content: flex-end;
+    gap: 1em
+}
+
+#home-feature ul li {
+    margin: 0;
+    padding: 1em 0 2em;
+    width: 100%;
+    max-width: 290px;
+    border-radius: 5px;
+    border: 2px solid var(--gray-200);
+    background: #fff;
+    justify-content: center;
+}
+
+#home-feature svg {
+    width: auto !important;
+    height: 35px !important;
+}
+
+.elementor-field-type-acceptance label {
+    display: block !important;
+    position: relative;
+    top: -1.8em;
+    left: 2.5em;
+}
+
+/* FOOTER */
+#footer .cpel-switcher__nav ul {
+    gap: .5em
+}
+
+#footer .cpel-switcher__nav li {
+    padding-left: 2em;
+    margin: 0;
+    background: url(/wp-content/uploads/globe-gray.svg) no-repeat center left;
+}
+
+#footer .cpel-switcher__nav li.cpel-switcher__lang--active  {
+    background: url(/wp-content/uploads/globe-blue.svg) no-repeat center left;
+}
+
+#footer .cpel-switcher__nav a {
+    background: none;
+    font-size: 16px;
+}
+
+#footer .cpel-switcher__nav a:hover {
+    color: inherit;
+    opacity: .8
+}
+
+#footer .cpel-switcher__list span {
+    font-size: 16px;
+}
+
+#footer .cpel-switcher__nav li.cpel-switcher__lang--active span {
+    color: var(--blue) 
+}
+
+#footer .elementor-heading-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray-700)
+}
+
+#footer li span {
+    font-size: 15px;
+    line-height: 120%;
+    color: var(--gray-600) 
+}
+
+#footer li:hover span {
+    color: var(--gray-900);
+    text-decoration: unset;
+}
+
+#footer ul.elementor-icon-list-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em
+}
+
+#footer ul li {
+    width: 100%;
+}
+
+#footer .elementor-widget-heading {
+    margin-bottom: 1em;
+
+}
+
+footer a.elementor-icon i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    display: none 
+}
+
+footer a.elementor-icon.elementor-social-icon-facebook-f {
+    background: url(/wp-content/uploads/footer-icon-facebook.svg) no-repeat center;
+}
+
+footer a.elementor-icon.elementor-social-icon-linkedin-in {
+    background: url(/wp-content/uploads/footer-icon-linkedin.svg) no-repeat center;
+}
+
+footer a.elementor-icon.elementor-social-icon-instagram {
+    background: url(/wp-content/uploads/footer-icon-instagram.svg) no-repeat center;
+}
+
+footer a.elementor-icon.elementor-social-icon-icon-youtube {
+    background: url(/wp-content/uploads/footer-icon-youtube.svg) no-repeat center;
+}
+
+footer #copyright {
+    margin: 2em 0 1em;
+    padding-top: 1em;
+}
+
+footer #copyright .elementor-widget-wrap {
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer #copyright .elementor-element {
+    margin: 0
+}
+
+#footer #copyright p {
+    text-transform: uppercase;
+    color: var(--gray-600);
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-align: left
+}
+
+footer a.elementor-icon i:hover {
+    color: var(--blue) !important  
+}
+
+footer .elementor-icon-list-item:hover .elementor-icon-list-text {
+    text-decoration: underline
+}
+
+/* BREADCRUMB */
+
+#breadcrumb .elementor-widget-wrap {
+    padding: 0;
+}
+
+#breadcrumb .elementor-widget-breadcrumbs {
+    margin: 0
+}
+
+#breadcrumb {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: .5em 0 .3em;
+    position: sticky;
+    border-bottom: 1px solid var(--gray-300);
+    top: 4.6em;
+    z-index: 5;
+    transition: ease-in-out .5s;
+    background: color-mix(in srgb, var(--gray-100) 85%, transparent);
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+        backdrop-filter:saturate(180%) blur(10px)
+}
+
+#breadcrumb span {
+    display: flex;
+    gap: .5em;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: var(--gray-500);
+}
+
+#breadcrumb p {
+    margin: 0;
+    width: 100%;
+}
+
+#breadcrumb img {
+    height: 21px;
+    width: auto;
+}
+
+#breadcrumb p, #breadcrumb span a, #breadcrumbs span {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+    color: var(--gray-600);
+}
+
+#breadcrumb span a:hover {
+    text-decoration: underline 
+}
+
+#breadcrumb .breadcrumb_last {
+    color: var(--blue) 
+}
+
+#breadcrumb .elementor-widget-wrap {
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+
+#breadcrumb .elementor-widget-wrap > .elementor-element {
+    width: auto;
+    align-content: center;
+}
+
+/* unused 
+body.scroll #breadcrumb {
+    border-bottom: 1px solid var(--gray-400) 
+}
+
+body.scroll #breadcrumb:not(img) {
+    padding: 0;
+}
+
+body.scroll #breadcrumb .elementor-widget-breadcrumbs {
+    display: none 
+}
+
+body.scroll #breadcrumb img {
+    padding: .5em 0;
+    margin: 0;
+    min-height: 40px
+}
+*/
+
+#main #bc-support ul {
+    padding: 0;
+}
+
+#main #bc-support ul li {
+    font-size: 11px;
+    text-transform: uppercase 
+}
+
+.elementor-animation-shrink:active, .elementor-animation-shrink:focus, .elementor-animation-shrink:hover {
+    transform: none !important
+}
+
+/* meios pagamento */
+#meios-pagamento {
+    padding: 3em
+}
+
+#meios-pagamento p {
+    color: #4A5468;
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 300
+}
+
+#meios-pagamento .wrap .elementor-widget-wrap {
+    flex-wrap: nowrap;
+    display: block 
+}
+
+#meios-pagamento h2 {
+    margin-bottom: .2em
+}
+
+#meios-pagamento .elementor-section:nth-child(2) {
+    padding: 1.5em 0 0
+}
+
+#meios-pagamento .elementor-section:nth-child(2) .elementor-widget-container a {
+    border: 2px solid var(--gray-400);
+    border-radius: 5px;
+    padding: .5em 2em;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#meios-pagamento .elementor-section:nth-child(2) .elementor-widget-container:hover a {
+    background: #fff
+}
+
+#meios-pagamento .wp-caption-text {
+    margin-top: .3em
+}
+
+#meios-pagamento img {
+    width: unset;
+    max-height: 25px;
+    margin: 0 auto;
+
+}
+
+#meios-pagamento .elementor-widget-wrap {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#meios-pagamento .elementor-widget, 
+#meios-pagamento .elementor-column {
+    width: 100%;
+    margin: 0 auto 
+}
+
+#meios-pagamento #icon-list {
+    padding: 2em 0
+}
+
+#meios-pagamento #icon-list ul {
+    gap: 2em;
+    display: flex;
+    flex-direction: unset;
+    align-content: center;
+    justify-content: center;
+}
+
+#meios-pagamento #icon-list ul li {
+    margin: 0;
+    overflow: visible;
+    border: 2px solid var(--gray-200);
+    border-radius: 8px;
+    padding: .5em 1em
+}
+
+#meios-pagamento #icon-list ul li:hover {
+    background: var(--gray-100) 
+}
+
+#meios-pagamento #icon-list svg {
+    width: unset !important;
+    height: 30px !important;
+    transition: none;
+}
+
+#meios-pagamento .button-easypay {
+    margin-top: 2em
+}
+
+#meios-pagamento .elementor-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+/* SELOS */
+#inline-filter:before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: var(--gray-400);
+    display: block;
+    margin: 0 auto 3em;
+}
+
+#inline-filter {
+    margin: 1em 0 5em
+}
+
+#inline-filter ul a {
+    padding: .5em 2em;
+    border-radius: 12px;
+    background: var(--blue-100) 
+}
+
+#inline-filter ul a:hover {
+    background: var(--gray-200) 
+}
+
+#inline-filter ul a span {
+    font-size: 16px;
+    color: black
+}
+
+#selos .variables h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#selos .variables {
+    padding-bottom: 4em
+}
+
+#selos img {
+    width: auto;
+    max-width: 100%;
+    height: 55px;
+    display: block;
+    object-fit: contain 
+}
+
+#selos .elementor-widget-image {
+    margin: 0
+}
+
+#selos .elementor-widget-image:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--gray-400);
+    margin: 1.5em 0
+
+}
+
+#selos a {
+    border: none;
+    padding: 0;
+}
+
+#selos a:hover {
+    background: none;
+    opacity: .7
+}
+
+#selos a span {
+    text-align: left;
+    font-weight: normal;
+}
+
+#selos a:hover span {
+    color: var(--blue) 
+}
+
+#selos .variables .boxes .elementor-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+#selos .variables .box-selo {
+    padding: 1em !important;
+    background: var(--gray-200);
+    border-radius: 12px;
+    width: 222px;
+}
+
+/* TERMOS */
+#terms .elementor-section {
+    padding-top: 0
+}
+
+#terms h2.elementor-heading-title {
+    margin: 0;
+}
+
+#terms h2 {
+    margin: 1em 0 .5em
+}
+
+#terms h3 {
+    color: var(--text-dark);
+    margin: 1.5em 0 .5em
+}
+
+#terms p {
+    font-size: 16px;
+    margin-bottom: 1em;
+    text-align: justify 
+}
+
+#terms ul {
+    padding: 1.5em;
+}
+
+#terms li {
+    margin-bottom: 1em;
+    font-size: 16px;
+    text-align: justify 
+}
+
+#terms ul li {
+    list-style: initial;
+}
+
+#terms ol ol {
+    list-style: lower-alpha;
+    margin-top: 1em
+}
+
+#terms ol ol ol {
+    list-style: lower-roman;
+}
+
+.ekit-wid-con .elementskit-section-title h1,
+.ekit-heading__description>p:first-child {
+    margin: 0
+}

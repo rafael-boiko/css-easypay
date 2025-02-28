@@ -1,0 +1,847 @@
+/* TIMELINE */
+#timeline h2 {
+    margin-bottom: 1em
+}
+
+#timeline h3 {
+    max-width: 80%;
+}
+
+#timeline p {
+    max-width: 80%;
+}
+
+#timeline .elementor-widget-wrap .elementor-section:nth-child(2) {
+    background: url(/wp-content/uploads/bg-timeline.svg) repeat-x center 4.5em
+}
+
+#tag-novidade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2.5em;
+    
+    width: 90px !important;
+    border-radius: 5px;
+    padding: .4em 1em;
+    background: #fff;
+    border: 1px solid var(--gray-300) 
+}
+
+#tag-novidade .elementor-widget-container {
+    border: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important
+}
+
+#tag-novidade p {
+    font-size: 12px;   
+    padding: 0;
+    margin: 0 auto;
+    text-align: center ;
+    font-weight: 500 ;
+    color: var(--blue) 
+}
+
+#bullets-section ul {
+    padding: 0;
+    width: 80%;
+}
+
+#bullets-section ul li {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1em;
+    padding-left: 2em;
+    background: url(/wp-content/uploads/icon-checkmark.svg) no-repeat 0 0; 
+}
+
+#bullets-section ul li span {
+    color: var(--gray-600) ;
+    font-weight: 300 !important
+}
+
+#bullets-section .bullets {
+    margin-top: 3em
+}
+
+/* CARD TOPICS  */
+#card-topics {
+    padding: 1em 0;
+}
+
+#card-topics .elementor-tabs {
+    justify-content: space-between;
+    margin: 3em 0
+}
+
+#card-topics .elementor-tabs-wrapper {
+    position: sticky;
+    top: 8em;
+    height: 200px;
+    width: auto;
+}
+
+#card-topics h3 {
+    font-size: 28px
+}
+
+#card-topics .elementor-tabs-content-wrapper {
+    background: var(--gray-100);
+    border-radius: 8px;
+    padding: 2em;
+    border: 2px solid var(--gray-200);
+    width: 100%;
+    max-width: 750px;
+}
+
+#card-topics .elementor-tabs-wrapper .elementor-tab-title,
+#card-topics .elementor-tabs-content-wrapper .elementor-tab-title {
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: normal;
+    background: url(/wp-content/uploads/arrow-light-gray-right.svg) no-repeat right 1em center var(--gray-100);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    margin-bottom: .5em;
+    padding: 1em;
+    min-width: 350px;
+}
+
+#card-topics .elementor-tabs-wrapper .elementor-tab-title:hover {
+    background: url(/wp-content/uploads/arrow-light-gray-right.svg) no-repeat right 1em center var(--gray-200) 
+}
+
+#card-topics .elementor-tabs-wrapper .elementor-active,
+#card-topics .elementor-tabs-content-wrapper .elementor-tab-title {
+    font-weight: 600;
+    color: var(--blue);
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-right.svg) no-repeat right 1em center var(--gray-200);
+}
+
+#card-topics .elementor-tabs-content-wrapper .elementor-active {
+    border: none 
+}
+
+#card-topics .elementor-active:after,
+#card-topics .elementor-active:before {
+    display: none 
+}
+
+#card-topics .card h2 {
+    color: var(--gray-900);
+    width: 50%;
+}
+
+#card-topics .c2 .card h2 {
+    width: 100%;
+}
+
+#card-topics .c2 .card h3 {
+    border-bottom: 1px solid var(--gray-400);
+    padding-bottom: 1em
+}
+
+#card-topics.b1 .card h2 {
+    width: 100%
+}
+
+#card-topics .card h3 span {
+    color: var(--blue);
+}
+
+#card-topics .card .elementor-widget-wrap {
+    padding: 0;
+    margin: 0
+}
+
+#card-topics .card .elementor-icon-box-wrapper {
+    padding-top: 1em;
+    padding-right: 6em
+}
+
+#card-topics.b1 .card .elementor-icon-box-wrapper {
+    padding-right: 1em
+}
+
+#card-topics .c2 .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+#card-topics .c1 .card .elementor-widget-wrap div:nth-child(2) {
+    opacity: 0;
+}
+
+#card-topics .c1 .card .elementor-widget-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, [a] 1fr [b]);
+    grid-template-columns: [a] 1fr [b a] 1fr [b];
+}
+
+#card-topics .e-gallery-image {
+    mix-blend-mode: darken;
+    height: 35px;
+    padding: 0;
+}
+
+#card-topics img {
+    width: 50px;
+}
+
+/* FORM PAGES */
+#aderir.form-platform {
+    padding: 5em 0; 
+}
+
+#aderir .elementor-container {
+    gap: 5em;
+}
+
+/* SECTION STEPS */
+#section-steps h2 {
+    width: 75%;
+}
+
+#section-steps p.elementor-heading-title {
+    width: 75%;
+}
+
+#section-steps #steps ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .5em
+}
+
+#section-steps #steps ul:hover li {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) ;
+}
+
+#section-steps #steps ul li:hover {
+    filter: none 
+}
+
+#section-steps #steps ul li:hover span {
+    filter: none;
+    color: var(--blue) 
+}
+
+#section-steps #steps ul li {
+    border-radius: 6px;
+    padding: 2em 2em 2em 5em;
+    line-height: 120%;
+    color: var(--gray-800);
+    width: 100%;
+}
+
+#section-steps #steps ul li span {
+    color: var(--gray-800);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+#section-steps #steps ul li:first-child  {
+    background: url(/wp-content/uploads/numbers-01.svg) 1.8em center no-repeat var(--gray-200);
+}
+
+#section-steps #steps ul li:nth-child(2) {
+    background: url(/wp-content/uploads/numbers-02.svg) 1.8em center no-repeat var(--gray-200);
+}
+
+#section-steps #steps ul li:nth-child(3) {
+    background: url(/wp-content/uploads/numbers-03.svg) 1.8em center no-repeat var(--gray-200);
+}
+
+#section-steps #steps ul li:nth-child(4) {
+    background: url(/wp-content/uploads/numbers-04.svg) 1.8em center no-repeat var(--gray-200);
+}
+
+#section-steps #steps ul li:only-child {
+    background-image: none;
+    padding: 2em
+}
+
+#section-steps .elementor-container .m1 .elementor-widget-wrap {
+    display: block;
+}
+
+#section-steps .elementor-container .m1 a {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 350px;
+    padding: 12px
+}
+
+#section-steps .elementor-container .m1 a span {
+    font-size: 12px;
+}
+
+#section-steps .elementor-widget-text-editor {
+    background: var(--gray-200);
+    padding: .5em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* BARRA SOLUCOES MEDIDA */
+#solucoes-medida {
+    margin: 0;
+    gap: 2%;
+    flex-wrap: nowrap;
+    padding: 2.5em 0
+}
+
+#solucoes-medida h2 {
+    color: var(--blue) 
+}
+
+#solucoes-medida .elementor-widget-wrap {
+    padding: 1.5em
+}
+
+#solucoes-medida section .elementor-widget-wrap {
+    padding: 0;
+}
+
+#solucoes-medida section {
+    margin: 0
+}
+
+#solucoes-medida img,
+#solucoes-medida svg{
+    width: unset !important;
+    height: 30px;
+    transition: none;
+
+}
+
+#solucoes-medida a:hover img,
+#solucoes-medida li:hover svg {
+    opacity: .8;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#solucoes-medida h3 {
+    font-size: 26px !important
+}
+
+#solucoes-medida p {
+    margin: .5em 0 1.5em
+}
+
+#solucoes-medida p span {
+    color: #4A5468 !important;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+#solucoes-medida ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: unset;
+    gap: 1.5em
+}
+
+/* pages plataforma */
+#top-pitch section {
+
+    margin: 0 auto 
+}
+
+#top-pitch.full section {
+    max-width: 100%
+}
+
+#top-pitch section .elementor-container,
+#tipos-pagamento  .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em
+}
+
+#top-pitch h2,
+#top-pitch h2 span,
+#tipos-pagamento h2 span {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#top-pitch h3 span,
+#tipos-pagamento h3 span {
+    color: var(--blue)
+}
+
+#top-pitch h4 span {
+    font-size: 22px;
+    line-height: 100%;
+    font-weight: 400;
+    color: var(--blue)
+}
+
+#top-pitch p,
+#tipos-pagamento p {
+    font-size: 16px;
+    color: var(--text-medium);
+    margin-top: .5em;
+    line-height: 130%;
+    letter-spacing: .015em
+}
+
+#top-pitch .elementor-inner-column,
+#tipos-pagamento .elementor-inner-column {
+    padding: 2em 3em;
+    background: white;
+    border-radius: 1em;
+}
+
+#tipos-pagamento .elementor-inner-column {
+    background: var(--gray-200) 
+}
+
+#top-pitch .elementor-inner-column .elementor-widget-wrap {
+    padding: 0
+}
+
+#top-pitch .desktop {
+    display: block 
+}
+
+#top-pitch .mobile {
+    display: none 
+}
+
+#top-pitch.meios-pagamento .elementor-icon svg {
+    width: unset;
+    height: 40px;
+    margin-bottom: .3em
+}
+
+#top-pitch.meios-pagamento.faturacao .elementor-image-box-wrapper img {
+    width: 170px;
+    height: auto;
+    padding: 0;
+}
+
+#top-pitch.meios-pagamento.faturacao .button-easypay,
+#top-pitch.meios-pagamento.faturacao .elementor-widget:not(:last-child) {
+    margin: 0;
+}
+
+#top-pitch.meios-pagamento.faturacao .elementor-col-25 {
+    border: 1px solid var(--gray-400);
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+    padding: .5em 0 1em;
+    transition: ease-in-out .5s
+}
+
+#top-pitch.meios-pagamento.faturacao .elementor-col-25:hover {
+    background: var(--gray-200) 
+}
+
+#top-pitch.meios-pagamento p {
+    margin-top: 0
+}
+
+#top-pitch.meios-pagamento p br {
+    background: pink;
+    display: block;
+    width: 100%; 
+}
+
+#top-pitch.meios-pagamento .button-easypay {
+    margin-bottom: 2em
+}
+
+#top-pitch ul li {
+    list-style: none;
+    padding-left: 2em;
+    background: url(/wp-content/uploads/icon-checkmark.svg) no-repeat;
+    margin-bottom: 1em
+}
+
+#top-pitch .button-easypay {
+    margin-bottom: 2em;
+    position: relative;
+    top: -.5em
+}
+
+#top-pitch.plataforma .button-easypay a {
+    border: none;
+    padding: 0;
+    background: url(/wp-content/uploads/icon-share-1.svg) no-repeat right 0;
+    background-size: auto 90%;
+    padding-right: 1.5em;
+    border-radius: 0
+}
+
+#top-pitch.plataforma .button-easypay a span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#top-pitch.plataforma .button-easypay a:hover {
+    background: url(/wp-content/uploads/icon-share-1.svg) no-repeat right 0 !important;
+    background-size: auto 90% !Important;
+    text-decoration: underline 
+}
+
+#top-pitch.plataforma .button-easypay a:hover span {
+    color: var(--blue) 
+}
+
+#tipos-pagamento .elementor-element-populated {
+    padding: 0
+}
+
+#tipos-pagamento p span {
+    display: table;
+    background: var(--gray-200);
+    margin: 1em 0 .5em;
+    padding: 3px ;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+#tipos-pagamento p em {
+    font-size: 12px;
+}
+
+#tipos-pagamento p span span {
+    display: block;
+    background: none;
+    padding: 0;
+    font-weight: normal;
+    border: none 
+}
+
+/* header cresÃ§a */
+body.page-id-28097 #bluebar,
+body.page-id-29647 #bluebar {
+    display: none 
+}
+
+#header-cresca p {
+    color: #fff !important;
+    margin: 0;
+}
+
+#header-cresca a span {
+    color: #fff;
+    font-weight: 500
+}
+
+#header-cresca input[type=checkbox] {
+    margin: 0;
+    border: 1px solid var(--gray-400)  !important;
+    box-shadow: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px !important
+}
+    
+#header-cresca .elementor-field-option {
+    display: flex; 
+    gap: .5em
+}
+
+#header-cresca .elementor-subgroup-inline {
+    gap: .5em;
+}
+
+.elementor-widget-button a span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#contacto button {
+    background: transparent !important;
+    border: 2px solid var(--blue)
+}
+
+#contacto button:hover {
+    background: var(--blue) !important;
+}
+
+#contacto button span {
+    color: var(--blue);
+    font-weight: 500;
+}
+
+#contacto button:hover span {
+    color: #fff
+}
+
+#contacto.Proposta .elementor-field-type-acceptance span {
+    display: flex;
+}
+
+#contacto.Proposta .elementor-field-type-acceptance label,
+#contacto.Proposta .elementor-field-type-acceptance input {
+    position: relative ;
+    top: 0;
+    left: 0;
+}
+
+#contacto.Proposta button.premium-btn-lg {
+    border-radius: 40px
+}
+
+#contacto p {
+    color: var(--text-light) 
+}
+
+/*  PRICE */
+#price {
+    padding: 3em 0 1em
+}
+
+#price h2 {
+    font-size: 28px;
+    font-weight: 400 
+}
+
+#price > .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+#price #methods {
+    width: 100%;
+    border-radius: 12px;
+    padding: 2em;
+}
+
+#price #content .info,
+#price #methods {
+    background: var(--gray-100);
+    border: 2px solid transparent;
+    transition: ease-in-out .2s;
+}
+
+#price #content .info:hover,
+#price #methods:hover {
+    box-shadow: 0px 4px 85px 0px rgba(0, 0, 0, 0.10);
+    border: 2px solid var(--gray-300) 
+}
+
+#price #methods img {
+    height: 25px;
+    max-width: 100px;
+}
+
+#price #methods .elementor-column:not(:first-child) {
+    min-width: 180px
+}
+
+#price #methods .m1 {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 155px;
+    margin-right: 2em;
+    overflow: hidden;
+    padding: .4em 1em;
+    overflow: visible ;
+}
+
+#price #methods .m1 * {
+    margin: 0;
+}
+
+#price #methods .m1 .elementor-element.elementor-widget-text-editor {
+    position: absolute;
+    height: auto;
+    width: auto;
+    line-height: 100%;
+    text-align: center;
+    
+    background: var(--gray-400);
+    padding: .2em .5em;
+    border-radius: 7px;
+
+    
+    font-size: 11px;
+    color: var(--gray-600);
+    left: 160%;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#price #methods .m1 .elementor-element.elementor-widget-text-editor p {
+    font-size: 11px
+}
+
+#price .elementor-widget-wrap {
+    align-content: center 
+}
+
+#price #methods .cc .m1 .elementor-element.elementor-widget-text-editor {
+    top: 50%;
+    left: 90%;
+    background: none;
+}
+
+#price #methods .m1 .elementor-element {
+    align-content: center;
+    height: 100%;
+}
+
+#price #methods section {
+    padding: .5em 0;
+    border-bottom: 1px solid var(--gray-400);
+}
+
+#price #methods section:not(:first-child):hover {
+    background: var(--gray-300) 
+}
+
+#price #methods section:first-child {
+    padding-bottom: 1em;
+    border: none;
+}
+
+#price #methods section .elementor-container {
+    justify-content: space-between;
+    gap: .5em
+}
+
+#price #methods ul.elementor-icon-list-items {
+    display: flex;
+    gap: .5em;
+    width: 100%;
+    margin: 0;
+}
+
+#price #methods ul li.elementor-icon-list-item {
+    background: #fff;
+    padding: .2em 1em .1em;
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    min-width: 180px;
+    margin: 0;
+    justify-content: center;
+}
+
+#price #methods ul li.elementor-icon-list-item span {
+    font-size: 12px;
+    text-transform: uppercase ;
+    font-weight: 500
+}
+
+#price #content {
+    width: 100%;
+    max-width: 450px;
+}
+
+#price #content > .elementor-widget-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    flex-direction: column;
+}
+
+#price .info {
+    padding: 1.5em;
+    border-radius: 12px;
+    flex: 1;      
+}
+
+#price #content .info .elementor-widget-wrap:last-of-type * {
+    margin: 0; 
+}
+
+#price #content .info .elementor-widget-wrap:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#price #content .info:first-child .elementor-widget-container {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--blue);
+    line-height: 110%;
+}
+
+#price #content .info .elementor-widget-container > span,
+#price #content .info .elementor-widget-container > p {
+    display: block;
+    color: initial;
+    font-size: 18px;
+    line-height: 120%; 
+    color: var(--text-medium)
+}
+
+#price #content .info a.elementor-button {
+    padding: .5em 1.5em .3em
+}
+
+#price #content .info a.elementor-button span {
+    font-size: 15px;
+}
+
+#price #content .info:nth-child(2) ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em
+}
+
+#price #content .info:nth-child(2) ul li a {
+    color: var(--blue);
+    padding: .5em 1em .3em;
+    font-size: 15px;
+    border: 2px solid var(--blue);
+    border-radius: 3em; 
+    transition: none 
+}
+
+#price #content .info:nth-child(2) ul li a:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+#price #content .info:nth-child(2) ul li a span {
+    font-weight: 400 
+}
+
+#price #content .info:last-child {
+    padding-top: 3em;
+    background: url(https://www.easypay.pt/wp-content/uploads/icon-info.svg) no-repeat var(--gray-100) 1.5em 1em;
+}
+
+#price #content .info:last-child .elementor-widget-text-editor:first-child p::after {
+    content: '';
+    width: 25%;
+    background: var(--gray-500);
+    height: 1px;
+    display: block;
+    margin-top: 1em
+}
+
+#price #content .info:last-child p {
+    font-size: 15px;
+}
+
+#legal > .elementor-container {
+    background: var(--gray-100) ;
+    border-radius: 12px;
+    padding: 1.5em
+}
+
+#legal p {
+    font-size: 14px;
+    color: var(--gray-600) 
+}

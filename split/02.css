@@ -1,0 +1,772 @@
+/* HOMEPAGE */
+#home-hero {
+    width: 100%;
+    margin: 0 auto;
+    background: var(--bg-blue);
+}
+
+#home-hero .elementor-column {
+    width: 50%;
+}
+
+#home-hero .elementor-container {
+    padding: 1em 0 5em;
+    background: url(/wp-content/uploads/home-hero-image.png) no-repeat var(--bg-blue) top right;
+    background-size: 50%;
+}
+
+#home-hero h1 {
+    font-size: 60px;
+}
+
+#home-hero h1 span {
+    color: var(--blue);
+    font-weight: 500
+}
+
+#home-hero h2 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 125%;
+    letter-spacing: 0.002px;
+    color: var(--gray-700) 
+}
+
+#home-hero #hero-links-list {
+    margin: 1em 0 3em
+}
+
+#home-hero #hero-links-list a {
+    padding: .1em 1em;
+    background: white;
+    border-radius: 1em;
+    font-size: 14px;
+    border: 1px solid var(--gray-200);
+    display: flex;
+    gap: .5em
+}
+
+#home-hero #hero-links-list a span:first-child {
+    order: 1;
+}
+
+#home-hero #hero-links-list a span {
+    background: linear-gradient(90deg, #0073FF -4.81%, #FF00D9 102.59%);
+    background: linear-gradient(90deg, color(display-p3 0.051 0.4431 0.9765) -4.81%, color(display-p3 0.9765 0.1765 0.8275) 102.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hero-cta ul a {
+    border: 1.5px solid var(--blue);
+    border-radius: 2em;
+    display: flex;
+    gap: .5em;
+    transition: ease-in-out .1s 
+}
+
+#hero-cta ul a:hover {
+    color: white;
+    background: var(--blue) 
+}
+
+#hero-cta ul a span:first-child {
+    order: 2
+}
+
+#hero-cta ul svg {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+#hero-cta a {
+    font-size: 16px;
+    padding: .5em 2em .35em;
+    max-height: 38px
+}
+
+#hero-cta li:last-child a {
+    background: var(--pink);
+    color: #fff;
+    border-color: var(--pink) 
+}
+
+#hero-cta a span {
+    font-weight: 500
+}
+
+#homepage-avisos {
+    padding: .8em 0;
+}
+
+#homepage-avisos a {
+    color: var(--pink);
+    padding-right: 1.5em;
+    background: url(/wp-content/uploads/arrow-right.svg) no-repeat right;
+}
+
+#homepage-avisos a:hover {
+    text-decoration: underline 
+}
+
+#homepage-avisos strong,
+#homepage-avisos a {
+    font-weight: 500 
+}
+
+#homepage-avisos .elementor-element {
+    width: 100%;
+}
+
+#homepage-avisos strong {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#homepage-avisos strong,
+#homepage-avisos a {
+    font-size: 14px;
+    font-weight: 400 
+}
+
+#homepage-avisos .elementor-widget-icon {
+    display: block;
+}
+
+#homepage-avisos .elementor-widget-icon svg {
+    margin: 0 auto ;
+}
+
+#homepage-avisos .elementor-icon {
+    display: block;
+    margin-bottom: .5em
+}
+
+#home-trust {
+    background: var(--blue-900) 
+}
+
+#home-trust * {
+    color: #fff
+}
+
+#home-trust .elementor-button {
+    background: #fff;
+    border-color: #fff;
+}
+
+#home-trust .elementor-button span {
+    color: var(--gray-800) 
+}
+
+#home-trust .elementor-button:hover {
+    opacity: .8
+}
+
+#home-trust h2 {
+    font-size: 36px;
+    font-weight: normal 
+}
+
+#home-trust .elementor-carousel-image {
+    background-size: 85% unset;
+    background-position: center 
+}
+
+#home-trust .swiper-slide {
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+
+#home-trust .elementor-skin-carousel .elementor-main-swiper, 
+#home-trust .elementor-skin-coverflow .elementor-main-swiper {
+    height: 30px;
+}
+
+#home-trust .elementor-widget:not(:last-child) {
+    margin: 0
+}
+
+#home-trust .elementor-widget.elementor-skin-carousel {
+    margin: 2em 0;
+}
+
+#home-about p {
+    line-height: 130%
+
+}
+
+#home-about p span {
+    font-weight: 500;
+}
+
+#home-about .elementor-col-33 .elementor-widget-wrap {
+    padding: 1em
+}
+
+/* TESTE BENEFITS SECTION */
+#benefits {
+    background: var(--blue-900);
+    z-index: 999
+}
+
+#benefits .elementor-container {
+    max-width: 1280px;
+    display: flex;
+}
+
+#benefits .elementor-container .left {
+    width: 60%;
+}
+
+#benefits h2 {
+    font-size: 36px;
+    color: var(--gray-200) 
+}
+
+#benefits h2 span {
+    font-size: 14px;
+    color: var(--blue-900);
+    background: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+#benefits h2 > span {
+    margin-bottom: 1em;
+    display: table;
+    padding: .45em .8em .35em;
+    border-radius: .4em;
+}
+
+#benefits p {
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--gray-300) 
+}
+
+#benefits p:last-child {
+    margin: 0;
+}
+
+#benefits a {
+    display: table;
+    font-size: 16px;
+    margin-top: 1em;
+    color: var(--gray-200);
+    border: 2px solid var(--gray-200); 
+    border-radius: 2em;
+    padding: .5em 2em .35em;
+    max-height: 38px
+}
+
+#benefits a:hover {
+    background: var(--gray-200);
+    color: var(--gray-700) 
+}
+
+#benefits .ekit-heading {
+    max-width: 570px
+}
+
+#benefits .elementor-container .text-block {
+    height: 100vh; /* Full screen height per section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#benefits .elementor-container .right {
+    width: 40%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#benefits .elementor-container .right img {
+    max-width: 450px;
+    max-height: 80vh;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* HOMEPAGE CARDS */
+#home-cards {
+    background: var(--gray-200);
+    padding: 3em 0 7em
+}
+
+#home-cards a.carousel-arrow {
+    position: absolute;
+    bottom: -6em;
+    top: unset;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+#home-cards a.carousel-arrow i {
+    display: none 
+}
+
+#home-cards a.carousel-arrow.carousel-prev {
+    left: unset;
+    right: 3em;
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-right.svg) no-repeat center #fff; 
+    transform: rotate(3.142rad);
+}
+
+#home-cards a.carousel-arrow.carousel-next {
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-right.svg) no-repeat center #fff; 
+}
+
+#home-cards .slick-list {
+    margin-top: 2em
+}
+
+#home-cards .slick-list {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    padding-left: 11em;
+}
+
+#home-cards .slick-track .slick-slide {
+    min-height: 420px;
+    height: 100%;
+    display: flex;
+}
+
+#home-cards .slick-track .slick-slide .elementor {
+    margin: 0 auto 
+}
+
+#home-cards .slick-track .card-homepage {
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid var(--gray-400);
+    box-shadow: 5px 5px 22px 0px color(display-p3 0 0 0 / 0.10);
+    max-width: 340px;
+    padding: 1.5em;
+    height: 100%;
+}
+
+#home-cards .slick-track .card-homepage .elementor-container,
+#home-cards .slick-track .card-homepage .elementor-container section {
+    height: 100%;
+}
+
+#home-cards .slick-track .card-homepage section .elementor-column {
+    display: flex;
+    height: 100%; 
+}
+
+#home-cards .slick-track .card-homepage section .elementor-column .elementor-element:last-child {
+    position: absolute; 
+    bottom: 0; 
+}
+
+#home-cards .card-homepage h2 {
+    font-size: 26px !important;
+    line-height: 120%;
+}
+
+#home-cards .card-homepage img {
+    object-fit: cover;
+    object-position: 0;
+    width: 35px;
+    height: 35px;
+    object-fit: 1;
+    overflow: hidden 
+}
+
+#home-cards .card-homepage ul {
+    border: 2px solid var(--gray-300);
+    border-radius: 12px;
+    padding: 1em
+}
+
+#home-cards .card-homepage ul img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+#home-cards .card-homepage span {
+    font-size: 14px;
+}
+
+#home-cards .card-homepage ul li:last-child {
+    border: 2px solid var(--blue);
+    border-radius: 22px !important;
+    text-align: center;
+
+    margin-top: 1em 
+}
+
+#home-cards .card-homepage ul li:last-child .premium-bullet-list-text  {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+
+#home-cards .card-homepage ul li:last-child .premium-bullet-list-text span {
+    color: var(--blue) !important;
+    font-weight: 500 !important
+}
+
+#home-cards .card-homepage ul li:last-child:hover {
+    background: var(--blue); 
+}
+
+#home-cards .card-homepage ul li:last-child:hover .premium-bullet-list-text span {
+    color: #fff !important
+}
+
+
+/* HOME EVENTS */
+#home-events .elementor-container  {
+    display: flex;
+    justify-content: space-between ;
+    gap: 5em;
+}
+
+#home-events > .elementor-container .elementor-column {
+    width: auto; 
+}
+
+#home-events iframe {
+    aspect-ratio: 16 / 9;
+}
+
+#home-events .event-column .elementor-widget-container {
+    display: flex ;
+    justify-content: space-between;
+}
+
+#home-events .event-column .elementor-widget-image-box {
+    border: 1px solid var(--gray-400); 
+    border-radius: 5px;
+    overflow: hidden ;
+    width: auto;
+}
+
+#home-events .event-column img {
+    width: 100%;
+    max-width: 345px;
+}
+
+#home-events .event-column .date {
+    display: flex ;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 
+}
+
+#home-events .event-column .date span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500 
+}
+
+#home-events .event-column .date span:last-child {
+    color: var(--pink) 
+}
+
+#home-events .event-column .button-easypay {
+    display: block;
+    text-align: center;
+    border: 1px solid var(--blue); 
+    width: 90%;
+    margin: 1em auto;
+    border-radius: 2em;
+    font-size: 12px;
+    font-weight: 500 ;
+    padding: .5em 0 .4em;
+}
+
+#home-events .event-column .button-easypay:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+#home-events .event-column figure {
+    margin-bottom: 0;
+}
+
+#home-tabs .elementor-tabs-wrapper {
+    display: flex;
+    gap: 2em;
+}
+
+#home-tabs .elementor-widget-wrap {
+    flex-wrap: nowrap;
+    gap: 3em
+}
+
+#home-tabs h2 {
+    text-align: left 
+}
+
+#home-tabs .elementor-widget-wrap > .elementor-element:first-child {
+    width: 40%;
+}
+
+#home-tabs .elementor-tab-title {
+    font-weight: 500;
+    padding: 0 0 0.5em;
+    color: var(--gray-600);
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+#home-tabs .elementor-tab-title:before,
+#home-tabs .elementor-tab-title:after {
+    top: 1.5em;
+    border: 2px solid var(--gray-300) 
+}
+
+#home-tabs .elementor-tab-title.elementor-active {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+#home-tabs .elementor-tab-content {
+    padding: 0;
+    border: none 
+}
+
+#home-tabs #icon-list ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2em 0;
+    gap: .5em;
+}
+
+#home-tabs #icon-list ul li {
+    margin: 0;
+    padding: 1.5em 0 2.5em;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid var(--gray-200);
+    justify-content: center;
+
+}
+
+#home-tabs #icon-list ul li:hover {
+    background: var(--gray-200) 
+}
+
+#home-tabs #icon-list .premium-bullet-list-text:before,
+#home-feature #icon-list .premium-bullet-list-text:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#home-tabs #icon-list li:hover .premium-bullet-list-text:before,
+#home-feature #icon-list li:hover .premium-bullet-list-text:before {
+    color: var(--blue) 
+}
+
+html[lang="pt-PT"] #home-tabs #icon-list .premium-bullet-list-text:before,
+html[lang="pt-PT"] #home-feature #icon-list .premium-bullet-list-text:before {
+    content: 'Saiba mais'
+}
+
+html[lang="en-GB"] #home-tabs #icon-list .premium-bullet-list-text:before,
+html[lang="en-GB"] #home-feature #icon-list .premium-bullet-list-text:before {
+    content: 'Learn more'
+}
+
+html[lang="es-ES"] #home-tabs #icon-list .premium-bullet-list-text:before,
+html[lang="es-ES"] #home-feature #icon-list .premium-bullet-list-text:before {
+    content: 'saber más'
+}
+
+#home-tabs #icon-list .premium-bullet-list-text,
+#home-tabs #icon-list .premium-bullet-list-wrapper {
+    width: 100%;
+}
+
+#home-tabs #icon-list svg {
+    width: unset !important;
+    height: 35px !important;
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* barra azul */
+#xs_cta_style_14 {
+    background: none;
+    padding: 3em 0;
+}
+
+#xs_cta_style_14 p {
+    font-weight: 400;
+    margin: 0;
+}
+
+#xs_cta_style_14 a {
+    font-size: 16px
+}
+
+#xs_cta_style_14 .elementor-widget-heading {
+    background: var(--gray-300);
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+#xs_cta_style_14 .elementor-widget-heading:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background: url(https://www.easypay.pt/wp-content/uploads/2023/05/arrow.svg) no-repeat center;
+    background-size: 100%;
+    mix-blend-mode: difference;
+    right: -1.5em;
+    z-index: 1;
+    top: 0;
+    -webkit-animation: blink 2s infinite both;
+    animation: blink 5s infinite both;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+#xs_cta_style_14 .elementor-widget-elementskit-button {
+    background: var(--blue); 
+    width: 50%;
+    padding: 2em
+}
+
+#xs_cta_style_14 h2,
+#xs_cta_style_14 .ekit-heading p {
+    font-weight: 500;
+    font-family: "Overpass", Sans-serif;
+    color: var(--gray-700);
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#xs_cta_style_14.promocional .ekit-heading p {
+    font-size: 16px;
+    font-weight: normal ;
+}
+
+#xs_cta_style_14 p {
+    font-size: 18px;
+    font-weight: 300 
+}
+
+#xs_cta_style_14 .elementor-column {
+    width: 100%;
+}
+
+#xs_cta_style_14 section {
+    box-shadow: none
+}
+
+#xs_cta_style_14 .elementor-widget-spacer {
+    display: none
+
+}
+
+#xs_cta_style_14 div {
+    width: unset
+}
+
+#xs_cta_style_14 .premium-modal-box-container button {
+    border-radius: 50px;
+    border: 2px solid #fff;
+    padding: .8em 3em
+}
+
+#xs_cta_style_14 .premium-modal-box-container button span {
+    color: #fff;
+    font-size: 16px;
+}
+
+#xs_cta_style_14 .premium-modal-box-container button:hover {
+    background: transparent 
+}
+
+#xs_cta_style_14 .premium-modal-box-modal-dialog {
+    width: 700px;
+}
+
+#xs_cta_style_14 .premium-modal-box-modal-body,
+.premium-modal-box-modal-body {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.premium-modal-box-modal-body p:before {
+    display: none 
+}
+
+#xs_cta_style_14 .premium-modal-box-modal-body a {
+    color: var(--blue) 
+}
+
+#xs_cta_style_14 img {
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+.premium-modal-box-modal-body ul {
+    margin: 1.5em 0
+}
+
+.premium-modal-box-modal-body ul li {
+    list-style: none;
+    margin-bottom: .5em
+}
+
+.premium-modal-box-modal-footer {
+    display: none;
+}

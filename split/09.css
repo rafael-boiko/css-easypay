@@ -1,0 +1,252 @@
+/* MOBILE LANDING PAGES */
+@media screen and (max-width: 668px) {
+    #lp-24.main #center-content {
+        padding: 0
+    }
+    
+    #lp-24.main {
+        background-image: none;
+        padding-bottom: 2em
+    }
+    
+    #lp-24 .ekit-heading {
+        width: 100%;
+    }
+    
+    #lp-24 img.wp-image-32323 {
+        display: none
+    }
+    
+    #lp-api,
+    #lp-reasons,
+    #lp-products,
+    #lp-platform,
+    #lp-payments,
+    #lp-affiliate,
+    #lp-form,
+    #lp-numbers {
+        padding: 3em 0;
+    } 
+    
+    #lp-api ul, #lp-payments ul {
+        flex-wrap: wrap;
+        padding: 1em 0;
+        margin: 0;
+    }
+    
+    #lp-api ul li, #lp-payments ul li {
+        width: 100%;
+    }
+    
+    #lp-products .elementor-container {
+        padding: 0
+    }
+    
+    #lp-products > .elementor-container {
+        padding: 1em 1.5em;
+    }
+    
+    #lp-products .row-1 .col .elementor-widget-wrap,
+    #lp-products .row-2 .col .elementor-widget-wrap {
+        padding: 1em !important
+    }
+    
+    #lp-products .row-2 .col .elementor-widget-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #lp-products .col {
+        margin: 0;
+    }
+    
+    #lp-reasons .elementor-tabs-content-wrapper {
+        width: 100%;
+    }
+    
+    #lp-reasons .elementor-tabs .elementor-tab-content {
+        border: none;
+        border-bottom: 1px solid var(--gray-400) 
+    }
+    
+    #lp-reasons .elementor-tabs {
+        padding: 0
+    }
+    
+    #lp-reasons p {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #lp-reasons p:last-child {
+        margin-top: 0;
+    }
+    
+    #lp-reasons .elementor-tabs-content-wrapper img {
+        float: none;
+        display: block;
+        margin: 1em auto;
+        order: 2;
+    }
+    
+    #lp-reasons .elementor-tabs-content-wrapper ul {
+        padding: 0;
+        padding-left: 2em
+    }
+    
+    #lp-platform *, #lp-platform h2, #lp-form h2, #lp-form p {
+        border: none 
+    }
+    
+    #lp-platform .elementor-tabs .elementor-active {
+        background: var(--gray-600) 
+    }
+    
+    #lp-affiliate .elementor-widget-elementskit-heading {
+        margin: 0;
+    }
+    
+    #lp-affiliate .elementor-container {
+        display: flex;
+        flex-wrap: nowrap 
+    }
+    
+    #lp-affiliate .illustration-hand {
+        margin-top: 2em;
+        padding: 2em
+    }
+    
+    #lp-numbers ul {
+        margin: 0;
+        width: 100%;
+        gap: 1em
+    }
+    
+    #lp-numbers li {
+        width: 100%;
+        padding: 1.5em 0 .5em;
+        border-radius: 8px;
+        aspect-ratio: 0;
+    }
+    
+    #lp-form .elementor-widget-container {
+        padding: 0
+    }
+    
+    #lp-form p {
+        padding: 0;
+    }
+    
+    #lp-form form .elementor-column.elementor-col-50 {
+        width: 100%;
+    }
+    
+    #lp-form-mini {
+        width: 90%;
+    }
+    
+    #lp-form-mini .elementor-container {
+        padding: 1em
+    }
+    
+    #lp-form-mini .elementor-column {
+        padding: 0
+    }
+    
+    #lp-footer .elementor-container {
+        flex-wrap: nowrap;
+    }
+    
+    #lp-footer .elementor-column.elementor-col-50:last-child {
+        display: none 
+    }
+    
+    #lp-footer .elementor-widget-social-icons {
+        width: unset;
+        display: none 
+    }
+    
+    #lp-footer .elementor-social-icons-wrapper {
+        gap: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%; 
+    }
+    
+    #lp-footer .elementor-social-icons-wrapper span {
+        margin: 0;
+        width: 100%;
+    }
+    
+    #lp-footer a.elementor-icon {
+        width: 100%;
+        height: auto;
+        background: pink ;
+        border-radius: 0;
+    }
+    
+    #lp-footer img {
+        float: none ;
+        margin-bottom: 1em
+    }
+}
+
+/* FIM LANDING PAGES */
+
+/* IPAD TABLET */
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .elementor header.elementor-section.elementor-top-section > .elementor-container {
+        padding: 0 1.5em
+    }
+    
+    header .elementor-container .elementor-column.elementor-col-25.elementor-top-column:nth-child(3) {
+        margin: 0;
+    }
+    
+    header .elementor-container .elementor-column.elementor-col-25.elementor-top-column:last-child {
+        position: static;
+    }
+    
+    #home-hero .elementor-container {
+        padding: 1em 2em 5em;
+    }
+    
+    .elementor-top-section > .elementor-container {
+        padding: 0 2em
+    }
+    
+    #header-pages .elementor-widget-wrap {
+        padding: 0;
+    }
+    
+    #header-pages .elementor-inner-section .elementor-column-gap-default {
+        display: flex;
+        gap: 5em
+    }
+    
+    #home-cards .slick-track .card-homepage {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #home-cards .slick-track .elementor-element {
+        margin-bottom: .3em
+    }
+    
+    #home-cards .slick-track .card-homepage {
+        padding: 1.5em
+    }
+    
+    #home-cards .elementor-top-section > .elementor-container {
+        padding: 0
+    }
+    
+    #home-cards .card-homepage ul {
+        padding: .5em
+    }
+    
+     #bluebar .elementor-container {
+        width: 95%;
+    }
+}
+

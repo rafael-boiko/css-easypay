@@ -1,0 +1,733 @@
+/* header pages */
+#header-pages {
+    padding: 5em 0;
+}
+
+body.parent-plataforma #header-pages {
+    background: #ecf0f8;
+    padding: 1em 0;
+}
+
+#header-pages .heading_hero h1 {
+    color: var(--blue);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 55px */
+}
+
+#header-pages .heading_hero h1 span {
+    display: table;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: normal;
+    background: var(--blue);
+    padding: .6em 1em .5em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+#header-pages .heading_hero.alert-bar .ekit-heading--subtitle {
+    font-size: 14px;
+    background: url(/wp-content/uploads/information_circle.png) no-repeat 1em center var(--gray-200);
+    background-size: 20px;
+    padding: .8em 1em .6em 3em;
+    border-radius: 6px;
+    color: var(--gray-600);
+    margin-bottom: 1em
+}
+
+#header-pages .heading_hero p {
+    color: var(--text-light);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 0;
+}
+
+#header-pages p strong {
+    font-weight: 600 
+}
+
+/* footer texts */
+#footer-texts {
+    border-top: 1px solid var(--gray-200);
+    padding: 3em 0 0;
+}
+
+#footer-texts h2,
+#footer-texts h2 span {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    margin-bottom: .5em
+}
+
+#footer-texts h2 {
+    margin-top: 1.5em
+}
+
+#footer-texts h2:first-child {
+    margin-top: 0
+}
+
+#footer-texts p,
+#footer-texts p span ,
+#footer-texts a {
+    font-size: 11px !important;
+    line-height: 150%;
+    font-weight: 300 !important;
+}
+
+#footer-texts .elementor-widget-spacer {
+    display: none
+}
+
+#footer-texts .elementor-widget-wrap {
+    padding: 0
+}
+
+#footer-texts .elementor-widget-container {
+    column-count: 3;
+    gap: 3em
+}
+
+/* BLOG */
+#blog .elementor-posts-container {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#blog a.elementor-post__thumbnail__link {
+    margin: 0;
+}
+
+#blog h3 a {
+    letter-spacing: 0;
+    color: var(--text-dark);
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+#main-blog h2 {
+    margin-top: 1em
+}
+
+.single-post #main-blog .left h2 {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--blue) 
+}
+
+.single-post #main #main-blog p,
+.single-post #main #main-blog .elementor-widget-text-editor{
+    margin: 0;
+    margin-bottom: 1em
+}
+
+#main-blog .left {
+    max-width: 260px;
+    position: sticky;
+    top: 120px;
+    display: table;
+    height: 0
+}
+
+#main #main-blog .left p {
+    margin: 0
+}
+
+#main-blog .main {
+    min-width: 550px;
+}
+
+#main-blog .left .elementor-widget-share-buttons {
+    background: var(--gray-200);
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+#main-blog p {
+    margin-bottom: 1em
+}
+
+#main-blog h3 {
+    color: var(--gray-900) 
+}
+
+#main-blog .elementor-container {
+    gap: 3em
+}
+
+
+
+body.single-post .elementor-page-title,
+body.single-post h1.entry-title,
+#main-blog .elementor-page-title, 
+#main-blog h1.entry-title {
+    display: unset;
+    margin: 0
+}
+
+#main-blog-head {
+    background: var(--blue-900);
+    padding-top: 1em;
+    padding-bottom: 8em
+}
+
+#main-blog-head .left {
+    width: 20%;
+    border-right: 1px solid white;
+    padding-right: 3em;
+}
+
+#main-blog-head .left .elementor-element-populated {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#main-blog-head .elementor-widget-post-info,
+#main-blog-head .elementor-widget-share-buttons {
+    margin: 0;
+    align-self: flex-end;
+}
+
+#main-blog-head .field-button {
+    position: absolute;
+    top: 0;
+}
+
+#main-blog-head .field-button a {
+    padding: 0;
+    padding-top: 1em;
+    background: url(https://www.easypay.pt/wp-content/uploads/arrow-back-white.svg) no-repeat; 
+    color: #fff;
+}
+
+#main-blog-head .left .button-easypay.simple a.elementor-size-xs:hover {
+    background-color: none !important
+}
+
+#main-blog-head .field-button a span {
+    color: #fff;
+}
+
+#main-blog-head .right {
+    padding-left: 3em;
+    max-width: 550px;
+}
+
+#main-blog-head img {
+    position: absolute;
+    width: 325px;
+    border-radius: 0 !important;
+    top: 2em
+}
+
+#main-blog-head h1 {
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: normal;
+    color: white 
+}
+
+#main-blog-head .elementor-widget-breadcrumbs {
+    margin-bottom: 4em
+}
+
+#main-blog-head #breadcrumbs span span {
+    color: rgba(255, 255, 255, 0.28)
+}
+
+#main-blog-head time {
+    color: white 
+}
+
+#main #main-blog-head .left ul {
+    padding: 0;
+    margin: 0
+}
+
+#main #main-blog-head .left ul li {
+    margin: 0;
+}
+
+#main #main-blog-head .elementor-share-btn {
+    height: 30px;
+    width: 30px;
+    border-radius: 0;
+}
+
+#main-blog {
+    margin-top: 15em
+}
+
+body.post-in-category-blog header#site-header header,
+body.post-in-category-blog header#site-header .elementskit-menu-container,
+body.post-in-category-blog #site-header .elementskit-megamenu-panel .elementor-top-section.elementor-element,
+body.post-in-category-blog #site-header .elementskit-megamenu-panel section.elementor-section {
+    background-color: var(--blue-900) !important
+}
+
+body.post-in-category-blog #site-header #main-menu ul.elementskit-navbar-nav > li > a,
+body.post-in-category-blog #site-header header .elementskit-megamenu-panel span,
+body.post-in-category-blog #toggle-menu ul li a,
+body.post-in-category-blog #menu-idiomas li a.ekit-menu-dropdown-toggle {
+    color: #fff
+}
+
+body.post-in-category-blog #site-header h2 {
+    color: #fff
+}
+
+body.post-in-category-blog header#site-header img {
+    visibility: hidden;
+}
+
+body.post-in-category-blog header#site-header #logo {
+    background: url(https://www.easypay.pt/wp-content/uploads/logo-easypay-white.svg) no-repeat; 
+    background-size: 130px;
+}
+
+body.post-in-category-blog header #main-menu ul.elementskit-navbar-nav > li > a {
+    color: white 
+}
+
+#blog .elementor-post__text {
+    padding: 1.5em 0 0
+}
+
+#blog p {
+    font-size: 16px;
+    color: var(--text-light);
+    font-weight: 300;
+    margin: 1em 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#blog .elementor-post-avatar {
+    display: none 
+}
+
+#blog .elementor-post__meta-data {
+    margin: .5em 0
+}
+
+#blog .elementor-post-date {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-light) 
+}
+
+#blog .elementor-post__read-more {
+    margin: 0;
+    color: var(--blue);
+    padding-bottom: .2em;
+    transition: none 
+}
+
+#blog .elementor-post__thumbnail {
+    border-radius: 5px;
+    border: 1px solid var(--gray-300);
+    aspect-ratio: 1;
+    padding: 0
+}
+
+#blog .elementor-post__thumbnail img {
+    aspect-ratio: 1;
+    object-fit: cover 
+}
+
+#blog .elementor-post__read-more:hover {
+    border-bottom: 1px solid var(--blue) 
+}
+
+#blog #load-more {
+    border-color: var(--blue);
+    padding: 1em 3em .8em
+}
+
+body.post-in-category-blog .thumbnail {
+    width: 50%;
+}
+
+body.post-in-category-blog #main ul.meta {
+    padding: 0;
+}
+
+body.post-in-category-blog #main ul.meta i,
+body.post-in-category-blog #main ul.meta li:after,
+body.post-in-category-blog #main ul.meta .meta-cat {
+    display: none;
+}
+
+body.post-in-category-blog #main ul.meta li {
+    font-size: 12px
+}
+
+body.post-in-category-blog #main .entry-header h2 {
+    margin: 0;
+    border: none;
+}
+
+/* barra azul - o neu negócio */
+#bluebar {
+    padding: 5em 0;
+    background: none;
+}
+
+#bluebar .elementor-container {
+    background: var(--blue-900);
+    border-radius: 12px;
+    padding: 2em;
+    box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+}
+
+#bluebar .elementor-container .elementor-widget-wrap {
+    justify-content: flex-start !important;
+    gap: .5em;
+}
+
+#bluebar .elementor-container .elementor-widget-wrap .elementor-element:last-child {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-content: center 
+}
+
+#bluebar .elementor-container .elementor-widget-wrap .elementor-widget-text-editor {
+    grid-row: 2
+}
+
+#bluebar .elementor-container .elementor-widget-wrap .elementor-widget-button {
+    text-align: right;
+}
+
+#bluebar a {
+}
+
+#bluebar .elementor-container:hover {
+  transform: scale(1.01);
+}
+
+body.single-post footer section.elementor-section .elementor-button-wrapper a.elementor-button-link,
+footer section.elementor-section .elementor-button-wrapper a.elementor-button-link,
+#bluebar a.elementor-button-link {
+    margin-top: 1em;
+    margin-bottom: 1em
+}
+
+body.single-post footer section.elementor-section .elementor-button-wrapper a.elementor-button-link span,
+footer section.elementor-section .elementor-button-wrapper a.elementor-button-link span,
+#bluebar a.elementor-button-link span {
+    color: #fff;
+}
+
+#bluebar .elementor-widget-text-editor {
+    margin: 0
+}
+
+footer section.elementor-section .elementor-button-wrapper a.elementor-button-link:hover span,
+#bluebar a.elementor-button-link:hover span {
+    color: var(--blue) 
+}
+
+#bluebar p {
+    font-size: 18px;
+    line-height: 130%;
+    opacity: .8;
+    color: #fff;
+    margin: 0
+ }
+
+#bluebar h2 {
+    font-size: 36px;
+    margin: 0;
+    line-height: 1em;
+    color: #fff
+}
+
+#bluebar .elementor-widget-heading,
+#bluebar .elementor-widget-text-editor {
+    margin: 0;
+    text-align: left 
+}
+
+#bluebar .elementor-widget-container {
+    padding: 0 !important
+}
+
+#bluebar .elementor-button-wrapper a spa {
+    color: #fff;
+}
+
+#bluebar .elementor-button-wrapper:hover a span {
+    color: var(--blue)
+}
+
+#bluebar .elementor-button-wrapper a:active,
+#bluebar .elementor-button-wrapper a:focus {
+    border: 2px solid #f4efef !important;
+    background: #f4efef !important
+}
+
+#bluebar .elementor-button-wrapper:hover a,
+#bluebar .elementor-button-wrapper a:hover {
+    background: #fff !important
+}
+
+#bluebar a.elementor-button {
+    margin: 0;
+    border: 2px solid #fff;
+    padding: .7em 2em .5em
+}
+
+/* button */
+.elementor-button-wrapper a.elementor-button-link span {
+    color: var(--blue) 
+}
+
+.elementor-button-wrapper a.elementor-button-link:hover span {
+    color: #fff
+}
+
+/* pay by link */
+#vantagens-pbl svg {
+    width: 40px;
+    height: 40px
+}
+
+#vantagens-pbl h4 span, #tipos-pagamento h4 span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #0D71F9;
+}
+
+#vantagens-pbl p, #tipos-pagamento p {
+    font-size: 16px;
+    font-family: "Overpass", Sans-serif;
+    margin-top: 1em;
+    line-height: 120%;
+    font-weight: 300;
+}
+
+#vantagens-pbl .elementor-widget {
+    padding: 0 2em
+}
+
+#tipos-pagamento h4 span span {
+    font-size: 12px;
+    padding: .3em 1em;
+    background: var(--gray-300);
+    border-radius: 5px;
+    position: relative;
+    top: -3px;
+    left: 5px;
+    font-weight: normal;
+    color: var(--gray-600)
+}
+
+#section-steps.pbl-slides img, #section-steps.pbl .elementor img {
+    width: 345px;
+    height: auto
+}
+
+#section-steps.pbl-slides .elementor-swiper-button-next, #section-steps.pbl-slides .elementor-swiper-button-prev {
+    color: var(--gray-700);
+    border-radius: 100%;
+    background: var(--gray-300);
+    padding: .5em;
+}
+
+#section-steps.pbl-slides .swiper-pagination-bullet {
+    background: transparent;
+    border: 1px solid #000;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+}
+
+#section-steps.pbl-slides .swiper-pagination-bullet-active {
+    background: var(--blue);
+    border-color: var(--blue)
+}
+
+#home-precos .button-easypay.mobile {
+    display: none 
+}
+
+#home-precos .button-easypay.desktop {
+    display: block 
+}
+
+#home-precos .mobile {
+    display: none 
+}
+
+#home-precos .elementor-column.elementor-col-25 {
+    width: 100%;
+}
+
+.elementor-button-wrapper a.elementor-button,
+.elementor-widget-button a.elementor-button,
+.button-easypay a.elementor-button {
+    border-radius: 30px;
+    background: no-repeat;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: .5em 2em .35em
+
+}
+
+.button-easypay.icon.small a.elementor-button {
+    padding: .6em 1em;
+    border: none;
+    margin-top: 1.5em;
+    background: url(/wp-content/uploads/icon-update.svg) no-repeat .6em .25em var(--gray-300) !important;
+    border-radius: 7px;
+}
+
+.button-easypay.icon.small a.elementor-button:hover {
+    background-color: var(--gray-400) !important 
+}
+
+.button-easypay.icon.small a.elementor-button span {
+    font-size: 12px;
+    padding-left: 1em;
+    position: relative ;
+    top: .08em
+}
+
+.button-easypay.icon.small a.elementor-button:hover span {
+    color: var(--gray-700) 
+}
+
+.elementor-button-wrapper a.elementor-button.elementor-size-xs,
+.elementor-widget-button a.elementor-button.elementor-size-xs,
+.button-easypay a.elementor-button.elementor-size-xs {
+    padding: .2em 1em
+}
+
+.elementor-button-wrapper a.elementor-button.elementor-size-xs span,
+.elementor-widget-button a.elementor-button.elementor-size-xs span,
+.button-easypay a.elementor-button.elementor-size-xs span {
+    font-size: 12px
+}
+
+.elementor-button-wrapper a.elementor-button:hover,
+.elementor-widget-button a.elementor-button:hover,
+.button-easypay a.elementor-button:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+#solucaoideal {
+    padding: 3em 0
+}
+
+#solucaoideal ul li {
+    margin-bottom: 1em;
+    border-radius: 6px;
+    list-style: none;
+    padding: .5em 1em .5em 3em;
+    background: url(/wp-content/uploads/icon-checkmark.svg) no-repeat var(--gray-200) 1em center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%
+}
+
+#solucaoideal ul li em {
+    font-size: 12px
+}
+
+#highlight-prize {
+    padding: 3em 0;
+}
+
+#highlight-prize h3 {
+    font-size: 26px;
+    line-height: 120%;
+    font-weight: 400;
+    color: var(--gray-800) 
+}
+
+#highlight-prize section {
+    padding: 2em;
+    border-radius: 6px
+}
+
+#possibilities h2 {
+    max-width: 80%;
+}
+
+#possibilities {
+    padding: 3em 0
+}
+
+#possibilities .elementor-column:nth-child(2) .elementor-widget-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, [a] 1fr [b]);
+    grid-template-columns: [a] 1fr [b a] 1fr [b];
+}
+
+#possibilities .elementor-icon-box-wrapper {
+    margin-bottom: 2em
+}
+
+#use-cases .elementor-accordion .elementor-accordion-item {
+    border: none 
+}
+
+#use-cases .elementor-accordion h4 {
+    background: var(--gray-200) 
+}
+
+#use-cases .elementor-accordion-item:first-child h4 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+#use-cases .elementor-accordion-item:last-child h4 {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.vantagens-cresca h2 {
+    margin-bottom: 1em
+}
+
+.vantagens-cresca figure.elementor-image-box-img img {
+    width: auto;
+    height: 35px;
+}
+
+.vantagens-cresca .elementor-section-content-top .elementor-widget-wrap {
+    display: grid !important;
+    grid-template-columns: 2fr 2fr;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vantagens-cresca .elementor-section-content-top .elementor-widget-wrap .elementor-element {
+    width: 100%; 
+    max-width: 300px;
+    min-height: unset;
+    margin-bottom: 2em
+}
+
+.vantagens-cresca img {
+    margin: 0
+}
